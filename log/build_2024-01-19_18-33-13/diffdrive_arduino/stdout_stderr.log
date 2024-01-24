@@ -1,0 +1,79 @@
+[35m[1mConsolidate compiler generated dependencies of target fake_robot[0m
+[35m[1mConsolidate compiler generated dependencies of target diffdrive_arduino[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/src/fake_robot.cpp:7:1:[m[K [01;31m[Kerror: [m[K‘[01m[KFakeRobot[m[K’ does not name a type
+    7 | [01;31m[KFakeRobot[m[K::FakeRobot()
+      | [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/src/fake_robot.cpp:13:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kreturn_type[m[K’ does not name a type
+   13 | [01;31m[Kreturn_type[m[K FakeRobot::configure(const hardware_interface::HardwareInfo & info)
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/src/fake_robot.cpp:40:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+   40 | std::[01;31m[Kvector[m[K<hardware_interface::StateInterface> FakeRobot::export_state_interfaces()
+      |      [01;31m[K^~~~~~[m[K
+[01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/src/fake_robot.cpp:5:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector[m[K’ is defined in header ‘[01m[K<vector>[m[K’; did you forget to ‘[01m[K#include <vector>[m[K’?
+    4 | #include "hardware_interface/types/hardware_interface_type_values.hpp"
+  +++ |+[32m[K#include <vector>[m[K
+    5 | 
+[01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/src/fake_robot.cpp:54:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+   54 | std::[01;31m[Kvector[m[K<hardware_interface::CommandInterface> FakeRobot::export_command_interfaces()
+      |      [01;31m[K^~~~~~[m[K
+[01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/src/fake_robot.cpp:54:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector[m[K’ is defined in header ‘[01m[K<vector>[m[K’; did you forget to ‘[01m[K#include <vector>[m[K’?
+   54 | [01;36m[Kstd[m[K::vector<hardware_interface::CommandInterface> FakeRobot::export_command_interfaces()
+      | [01;36m[K^~~[m[K
+[01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/src/fake_robot.cpp:67:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kreturn_type[m[K’ does not name a type
+   67 | [01;31m[Kreturn_type[m[K FakeRobot::start()
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/src/fake_robot.cpp:75:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kreturn_type[m[K’ does not name a type
+   75 | [01;31m[Kreturn_type[m[K FakeRobot::stop()
+      | [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/src/fake_robot.cpp:83:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kreturn_type[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+   83 | hardware_interface::[01;31m[Kreturn_type[m[K FakeRobot::read()
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/src/fake_robot.cpp:104:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kreturn_type[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+  104 | hardware_interface::[01;31m[Kreturn_type[m[K FakeRobot::write()
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:1[m[K:
+[01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino.h:7:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/base_interface.hpp: No such file or directory
+    7 | #include [01;31m[K"hardware_interface/base_interface.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/diffdrive_arduino.dir/build.make:76: CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/diffdrive_arduino.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/src/fake_robot.cpp:118[m[K:
+[01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/src/fake_robot.cpp:121:3:[m[K [01;31m[Kerror: [m[K‘[01m[KFakeRobot[m[K’ does not name a type
+  121 |   [01;31m[KFakeRobot[m[K,
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/src/fake_robot.cpp:122:23:[m[K [01;31m[Kerror: [m[K‘[01m[KSystemInterface[m[K’ in namespace ‘[01m[Khardware_interface[m[K’ does not name a type
+  122 |   hardware_interface::[01;31m[KSystemInterface[m[K
+      |                       [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/src/fake_robot.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::ProxyExec0()[m[K’:
+[01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/src/fake_robot.cpp:120:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+  120 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/src/fake_robot.cpp:120:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_base[m[K’ was not declared in this scope
+  120 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/src/fake_robot.cpp:120:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, <expression error> >(const char [10], const char [36])[m[K’
+  120 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/src/fake_robot.cpp:118[m[K:
+[01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)[m[K’
+  210 | void [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+      |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/src/fake_robot.cpp:118[m[K:
+[01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/src/fake_robot.cpp:120:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  120 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(
+      | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/src/fake_robot.cpp:120:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+gmake[2]: *** [CMakeFiles/fake_robot.dir/build.make:76: CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/fake_robot.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

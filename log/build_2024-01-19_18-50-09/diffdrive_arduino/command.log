@@ -1,0 +1,2 @@
+Invoking command in '/home/hussein/Documents/kal_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hussein/Documents/kal_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/diffdrive_arduino -- -j12 -l12
+Invoked command in '/home/hussein/Documents/kal_ws/build/diffdrive_arduino' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hussein/Documents/kal_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/diffdrive_arduino -- -j12 -l12

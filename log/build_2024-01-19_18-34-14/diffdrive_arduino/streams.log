@@ -1,0 +1,46 @@
+[0.180s] Invoking command in '/home/hussein/Documents/kal_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hussein/Documents/kal_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/diffdrive_arduino -- -j12 -l12
+[0.204s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.393s] -- Found serial: 1.2.1 (/home/hussein/Documents/kal_ws/install/serial/share/serial/cmake)
+[0.394s] -- Found hardware_interface: 2.36.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.424s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.427s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.433s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.445s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.462s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.131s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.132s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.162s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.169s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.190s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.197s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.206s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.364s] -- Found controller_manager: 2.36.0 (/opt/ros/humble/share/controller_manager/cmake)
+[2.750s] -- Configuring done
+[2.782s] -- Generating done
+[2.783s] -- Build files have been written to: /home/hussein/Documents/kal_ws/build/diffdrive_arduino
+[2.803s] [35m[1mConsolidate compiler generated dependencies of target fake_robot[0m
+[2.803s] [35m[1mConsolidate compiler generated dependencies of target diffdrive_arduino[0m
+[2.819s] [ 28%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/wheel.cpp.o[0m
+[2.820s] [ 28%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o[0m
+[2.828s] [ 42%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[2.830s] [ 57%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/wheel.cpp.o[0m
+[2.834s] [ 71%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o[0m
+[3.124s] In file included from [01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/src/fake_robot.cpp:1[m[K:
+[3.124s] [01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/include/diffdrive_arduino/fake_robot.h:7:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/base_interface.hpp: No such file or directory
+[3.124s]     7 | #include [01;31m[K"hardware_interface/base_interface.hpp"[m[K
+[3.124s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.124s] compilation terminated.
+[3.127s] gmake[2]: *** [CMakeFiles/fake_robot.dir/build.make:76: CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o] Error 1
+[3.127s] gmake[2]: *** Waiting for unfinished jobs....
+[3.128s] In file included from [01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/src/diffdrive_arduino.cpp:1[m[K:
+[3.129s] [01m[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino.h:7:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/base_interface.hpp: No such file or directory
+[3.129s]     7 | #include [01;31m[K"hardware_interface/base_interface.hpp"[m[K
+[3.129s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.129s] compilation terminated.
+[3.131s] gmake[2]: *** [CMakeFiles/diffdrive_arduino.dir/build.make:76: CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o] Error 1
+[3.131s] gmake[2]: *** Waiting for unfinished jobs....
+[3.203s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/fake_robot.dir/all] Error 2
+[3.203s] gmake[1]: *** Waiting for unfinished jobs....
+[5.080s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/diffdrive_arduino.dir/all] Error 2
+[5.080s] gmake: *** [Makefile:146: all] Error 2
+[5.082s] Invoked command in '/home/hussein/Documents/kal_ws/build/diffdrive_arduino' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hussein/Documents/kal_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/diffdrive_arduino -- -j12 -l12

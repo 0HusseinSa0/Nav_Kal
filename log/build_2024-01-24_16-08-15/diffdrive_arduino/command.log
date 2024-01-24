@@ -1,0 +1,4 @@
+Invoking command in '/home/hussein/Documents/kal_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/diffdrive_arduino -- -j12 -l12
+Invoked command in '/home/hussein/Documents/kal_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/diffdrive_arduino -- -j12 -l12
+Invoking command in '/home/hussein/Documents/kal_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hussein/Documents/kal_ws/build/diffdrive_arduino
+Invoked command in '/home/hussein/Documents/kal_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hussein/Documents/kal_ws/build/diffdrive_arduino

@@ -1,0 +1,26 @@
+[0.760s] Invoking command in '/home/hussein/Documents/kal_ws/src/serial_motor_demo/serial_motor_demo': AMENT_PREFIX_PATH=/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs LD_LIBRARY_PATH=/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hussein/Documents/kal_ws/build/serial_motor_demo/prefix_override:/home/hussein/Documents/kal_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/hussein/Documents/kal_ws/build/serial_motor_demo/build install --record /home/hussein/Documents/kal_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed
+[0.939s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.939s]   warnings.warn(
+[0.944s] running egg_info
+[0.945s] writing ../../../build/serial_motor_demo/serial_motor_demo.egg-info/PKG-INFO
+[0.945s] writing dependency_links to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/dependency_links.txt
+[0.946s] writing entry points to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/entry_points.txt
+[0.946s] writing requirements to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/requires.txt
+[0.946s] writing top-level names to ../../../build/serial_motor_demo/serial_motor_demo.egg-info/top_level.txt
+[0.947s] reading manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[0.948s] writing manifest file '../../../build/serial_motor_demo/serial_motor_demo.egg-info/SOURCES.txt'
+[0.948s] running build
+[0.948s] running build_py
+[0.949s] running install
+[0.949s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.949s]   warnings.warn(
+[0.949s] running install_lib
+[0.950s] running install_data
+[0.950s] running install_egg_info
+[0.952s] removing '/home/hussein/Documents/kal_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info' (and everything under it)
+[0.952s] Copying ../../../build/serial_motor_demo/serial_motor_demo.egg-info to /home/hussein/Documents/kal_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial_motor_demo-0.0.0-py3.10.egg-info
+[0.953s] running install_scripts
+[0.968s] Installing driver script to /home/hussein/Documents/kal_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.968s] Installing gui script to /home/hussein/Documents/kal_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.968s] writing list of installed files to '/home/hussein/Documents/kal_ws/build/serial_motor_demo/install.log'
+[0.985s] Invoked command in '/home/hussein/Documents/kal_ws/src/serial_motor_demo/serial_motor_demo' returned '0': AMENT_PREFIX_PATH=/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs LD_LIBRARY_PATH=/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hussein/Documents/kal_ws/build/serial_motor_demo/prefix_override:/home/hussein/Documents/kal_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/serial_motor_demo build --build-base /home/hussein/Documents/kal_ws/build/serial_motor_demo/build install --record /home/hussein/Documents/kal_ws/build/serial_motor_demo/install.log --install-scripts $base/lib/serial_motor_demo --single-version-externally-managed
