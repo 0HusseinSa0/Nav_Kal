@@ -1,0 +1,49 @@
+[0.816s] Invoking command in '/home/hussein/Documents/kal_ws/build/kal_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/kal_package -- -j4 -l4
+[1.392s] Invoked command in '/home/hussein/Documents/kal_ws/build/kal_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/kal_package -- -j4 -l4
+[1.590s] Invoking command in '/home/hussein/Documents/kal_ws/build/kal_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hussein/Documents/kal_ws/build/kal_package
+[1.715s] -- Install configuration: ""
+[1.724s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src
+[1.726s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description
+[1.727s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/gazebo.xacro
+[1.729s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/wheels.xacro
+[1.730s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/ros2_control0.xacro
+[1.732s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/lidar.xacro
+[1.734s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/imu.xacro
+[1.736s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/sensors.xacro
+[1.738s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/inertial_fns.xacro
+[1.742s] -- Installing: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/ros2_control.xacro
+[1.743s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/main.urdf
+[1.746s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/base.xacro
+[1.746s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/launch
+[1.761s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/launch/rsp.launch.py
+[1.764s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/launch/navigation_launch.py
+[1.781s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/launch/launch_robot.launch.py
+[1.782s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/launch/localization_launch.py
+[1.782s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/launch/test_launch.py
+[1.783s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/launch/online_async_launch.py
+[1.784s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/rviz
+[1.785s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/config
+[1.791s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/config/gazebo_params.yaml
+[1.798s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/config/mapper_params_online_async.yaml
+[1.798s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/config/mapper_params_localization.yaml
+[1.799s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/config/twist_mux.yaml
+[1.800s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/config/my_controllers.yaml
+[1.801s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/config/nav2_params.yaml
+[1.801s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/world
+[1.802s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/world/waell.sdf
+[1.803s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/ament_index/resource_index/package_run_dependencies/kal_package
+[1.806s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/ament_index/resource_index/parent_prefix_path/kal_package
+[1.807s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/environment/ament_prefix_path.sh
+[1.807s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/environment/ament_prefix_path.dsv
+[1.808s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/environment/path.sh
+[1.808s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/environment/path.dsv
+[1.809s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/local_setup.bash
+[1.816s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/local_setup.sh
+[1.817s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/local_setup.zsh
+[1.818s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/local_setup.dsv
+[1.819s] -- Installing: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/package.dsv
+[1.820s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/ament_index/resource_index/packages/kal_package
+[1.821s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/cmake/kal_packageConfig.cmake
+[1.821s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/cmake/kal_packageConfig-version.cmake
+[1.822s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/package.xml
+[1.833s] Invoked command in '/home/hussein/Documents/kal_ws/build/kal_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hussein/Documents/kal_ws/build/kal_package

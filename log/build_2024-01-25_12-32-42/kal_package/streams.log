@@ -1,0 +1,29 @@
+[0.834s] Invoking command in '/home/hussein/Documents/robotWs/build/kal_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/robotWs/build/kal_package -- -j4 -l4
+[1.071s] Invoked command in '/home/hussein/Documents/robotWs/build/kal_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/robotWs/build/kal_package -- -j4 -l4
+[1.294s] Invoking command in '/home/hussein/Documents/robotWs/build/kal_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hussein/Documents/robotWs/build/kal_package
+[1.349s] -- Install configuration: ""
+[1.350s] -- Up-to-date: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/src
+[1.350s] -- Up-to-date: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/src/description
+[1.351s] -- Installing: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/src/description/gazebo.xacro
+[1.353s] -- Installing: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/src/description/wheels.xacro
+[1.355s] -- Installing: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/src/description/ros2_control0.xacro
+[1.355s] -- Installing: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/src/description/lidar.xacro
+[1.357s] -- Installing: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/src/description/imu.xacro
+[1.359s] -- Installing: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/src/description/sensors.xacro
+[1.360s] -- Installing: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/src/description/inertial_fns.xacro
+[1.362s] -- Installing: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/src/description/ros2_control.xacro
+[1.363s] -- Installing: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/src/description/main.urdf
+[1.364s] -- Installing: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/src/description/base.xacro
+[1.367s] -- Up-to-date: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/launch
+[1.368s] -- Up-to-date: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/launch/rsp.launch.py
+[1.369s] -- Up-to-date: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/launch/navigation_launch.py
+[1.369s] -- Up-to-date: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/launch/launch_robot.launch.py
+[1.370s] -- Up-to-date: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/launch/localization_launch.py
+[1.371s] -- Up-to-date: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/launch/test_launch.py
+[1.373s] -- Up-to-date: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/launch/online_async_launch.py
+[1.375s] [31mCMake Error at cmake_install.cmake:46 (file):
+[1.376s]   file INSTALL cannot find
+[1.377s]   "/home/hussein/Documents/robotWs/src/kal_package/rviz": No such file or
+[1.378s]   directory.
+[1.381s] 
+[1.383s] [0m

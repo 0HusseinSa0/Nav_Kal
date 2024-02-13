@@ -1,0 +1,614 @@
+[0.000000] (-) TimerEvent: {}
+[0.001917] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict()}
+[0.002609] (kal_package) JobQueued: {'identifier': 'kal_package', 'dependencies': OrderedDict()}
+[0.002718] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.003038] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.003231] (serial_motor_demo_msgs) JobQueued: {'identifier': 'serial_motor_demo_msgs', 'dependencies': OrderedDict()}
+[0.003334] (serial_motor_demo) JobQueued: {'identifier': 'serial_motor_demo', 'dependencies': OrderedDict([('serial_motor_demo_msgs', '/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs')])}
+[0.003714] (serial_motor_demo_msgs) JobStarted: {'identifier': 'serial_motor_demo_msgs'}
+[0.099139] (-) TimerEvent: {}
+[0.201472] (-) TimerEvent: {}
+[0.304883] (-) TimerEvent: {}
+[0.375764] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[0.405377] (-) TimerEvent: {}
+[0.506488] (-) TimerEvent: {}
+[0.610207] (-) TimerEvent: {}
+[0.711418] (-) TimerEvent: {}
+[0.717252] (kal_package) JobStarted: {'identifier': 'kal_package'}
+[0.811598] (-) TimerEvent: {}
+[0.912816] (-) TimerEvent: {}
+[1.015464] (-) TimerEvent: {}
+[1.022743] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[1.120218] (-) TimerEvent: {}
+[1.221862] (-) TimerEvent: {}
+[1.322649] (-) TimerEvent: {}
+[1.341223] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'cmake'}
+[1.344475] (serial_motor_demo_msgs) JobProgress: {'identifier': 'serial_motor_demo_msgs', 'progress': 'build'}
+[1.347767] (serial_motor_demo_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hussein/Documents/kal_ws/build/serial_motor_demo_msgs', '--', '-j4', '-l4'], 'cwd': '/home/hussein/Documents/kal_ws/build/serial_motor_demo_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hussein'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hussein'), ('OLDPWD', '/home/hussein/Documents'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('SYSTEMD_EXEC_PID', '2057'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hussein'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hussein'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotOS:@/tmp/.ICE-unix/2027,unix/robotOS:/tmp/.ICE-unix/2027'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1529d282_2928_4911_a47e_0578f8e143e2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hussein/Documents/kal_ws/build/serial_motor_demo_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.368431] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[1.372032] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[1.373368] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hussein/Documents/kal_ws/build/diffdrive_arduino', '--', '-j4', '-l4'], 'cwd': '/home/hussein/Documents/kal_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hussein'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hussein'), ('OLDPWD', '/home/hussein/Documents'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('SYSTEMD_EXEC_PID', '2057'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hussein'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hussein'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotOS:@/tmp/.ICE-unix/2027,unix/robotOS:/tmp/.ICE-unix/2027'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1529d282_2928_4911_a47e_0578f8e143e2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hussein/Documents/kal_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.389093] (kal_package) JobProgress: {'identifier': 'kal_package', 'progress': 'cmake'}
+[1.393013] (kal_package) JobProgress: {'identifier': 'kal_package', 'progress': 'build'}
+[1.394578] (kal_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hussein/Documents/kal_ws/build/kal_package', '--', '-j4', '-l4'], 'cwd': '/home/hussein/Documents/kal_ws/build/kal_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hussein'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hussein'), ('OLDPWD', '/home/hussein/Documents'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('SYSTEMD_EXEC_PID', '2057'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hussein'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hussein'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotOS:@/tmp/.ICE-unix/2027,unix/robotOS:/tmp/.ICE-unix/2027'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1529d282_2928_4911_a47e_0578f8e143e2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hussein/Documents/kal_ws/build/kal_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.423013] (-) TimerEvent: {}
+[1.424582] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[1.429858] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[1.432171] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hussein/Documents/kal_ws/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/hussein/Documents/kal_ws/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hussein'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hussein'), ('OLDPWD', '/home/hussein/Documents'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('SYSTEMD_EXEC_PID', '2057'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hussein'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hussein'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotOS:@/tmp/.ICE-unix/2027,unix/robotOS:/tmp/.ICE-unix/2027'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1529d282_2928_4911_a47e_0578f8e143e2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hussein/Documents/kal_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.493767] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.523354] (-) TimerEvent: {}
+[1.630955] (kal_package) CommandEnded: {'returncode': 0}
+[1.633345] (-) TimerEvent: {}
+[1.720056] (serial_motor_demo_msgs) StdoutLine: {'line': b'[  2%] Built target serial_motor_demo_msgs__cpp\n'}
+[1.733799] (-) TimerEvent: {}
+[1.750397] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 12%] Built target serial_motor_demo_msgs__rosidl_generator_c\n'}
+[1.834060] (-) TimerEvent: {}
+[1.874578] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_composition_node\x1b[0m\n'}
+[1.889263] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_serial_motor_demo_msgs\n'}
+[1.934277] (-) TimerEvent: {}
+[1.936517] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 23%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.956119] (kal_package) JobProgress: {'identifier': 'kal_package', 'progress': 'install'}
+[2.002244] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 34%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.047534] (kal_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hussein/Documents/kal_ws/build/kal_package'], 'cwd': '/home/hussein/Documents/kal_ws/build/kal_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hussein'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hussein'), ('OLDPWD', '/home/hussein/Documents'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('SYSTEMD_EXEC_PID', '2057'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hussein'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hussein'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotOS:@/tmp/.ICE-unix/2027,unix/robotOS:/tmp/.ICE-unix/2027'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1529d282_2928_4911_a47e_0578f8e143e2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hussein/Documents/kal_ws/build/kal_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.050467] (-) TimerEvent: {}
+[2.052462] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 44%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp\n'}
+[2.118035] (kal_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.124238] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 55%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c\n'}
+[2.129835] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src\n'}
+[2.131459] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description\n'}
+[2.132088] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/gazebo.xacro\n'}
+[2.132592] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/wheels.xacro\n'}
+[2.133681] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/ros2_control0.xacro\n'}
+[2.134328] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/lidar.xacro\n'}
+[2.134937] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/imu.xacro\n'}
+[2.135450] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/sensors.xacro\n'}
+[2.136066] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/inertial_fns.xacro\n'}
+[2.137360] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/ros2_control.xacro\n'}
+[2.138878] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/main.urdf\n'}
+[2.140121] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/base.xacro\n'}
+[2.145293] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/launch\n'}
+[2.146311] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/launch/rsp.launch.py\n'}
+[2.147217] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/launch/navigation_launch.py\n'}
+[2.148070] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/launch/launch_robot.launch.py\n'}
+[2.150016] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/launch/localization_launch.py\n'}
+[2.150926] (-) TimerEvent: {}
+[2.152630] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/launch/test_launch.py\n'}
+[2.153755] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/launch/online_async_launch.py\n'}
+[2.154994] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/rviz\n'}
+[2.155818] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/config\n'}
+[2.156506] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/config/gazebo_params.yaml\n'}
+[2.157387] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/config/mapper_params_online_async.yaml\n'}
+[2.158799] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/config/mapper_params_localization.yaml\n'}
+[2.166386] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/config/twist_mux.yaml\n'}
+[2.167257] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/config/my_controllers.yaml\n'}
+[2.167895] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/config/nav2_params.yaml\n'}
+[2.168520] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/world\n'}
+[2.188467] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/world/waell.sdf\n'}
+[2.189260] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/ament_index/resource_index/package_run_dependencies/kal_package\n'}
+[2.189975] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/ament_index/resource_index/parent_prefix_path/kal_package\n'}
+[2.191369] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/environment/ament_prefix_path.sh\n'}
+[2.192518] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/environment/ament_prefix_path.dsv\n'}
+[2.194649] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/environment/path.sh\n'}
+[2.205642] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/environment/path.dsv\n'}
+[2.206433] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/local_setup.bash\n'}
+[2.207140] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/local_setup.sh\n'}
+[2.207732] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/local_setup.zsh\n'}
+[2.208456] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/local_setup.dsv\n'}
+[2.211948] (kal_package) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/package.dsv\n'}
+[2.233166] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/ament_index/resource_index/packages/kal_package\n'}
+[2.234277] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/cmake/kal_packageConfig.cmake\n'}
+[2.234905] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/cmake/kal_packageConfig-version.cmake\n'}
+[2.235518] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/package.xml\n'}
+[2.236199] (rplidar_ros) StdoutLine: {'line': b'[ 77%] Built target rplidar_composition_node\n'}
+[2.237036] (kal_package) CommandEnded: {'returncode': 0}
+[2.238940] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 65%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c\n'}
+[2.254286] (-) TimerEvent: {}
+[2.268427] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_composition\x1b[0m\n'}
+[2.307739] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_c\n'}
+[2.354839] (-) TimerEvent: {}
+[2.414238] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[2.455360] (-) TimerEvent: {}
+[2.547169] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 76%] Built target serial_motor_demo_msgs\n'}
+[2.556371] (-) TimerEvent: {}
+[2.658294] (-) TimerEvent: {}
+[2.685215] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 78%] Built target serial_motor_demo_msgs__py\n'}
+[2.759774] (-) TimerEvent: {}
+[2.814711] (serial_motor_demo_msgs) StderrLine: {'line': b"gmake[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libpython3.10.so', needed by 'rosidl_generator_py/serial_motor_demo_msgs/libserial_motor_demo_msgs__rosidl_generator_py.so'.  Stop.\n"}
+[2.816332] (serial_motor_demo_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:475: CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/all] Error 2\n'}
+[2.817499] (serial_motor_demo_msgs) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.860052] (-) TimerEvent: {}
+[2.875588] (diffdrive_arduino) StdoutLine: {'line': b'-- Found hardware_interface: 2.36.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[2.929583] (rplidar_ros) CommandEnded: {'returncode': 0}
+[2.960412] (-) TimerEvent: {}
+[3.062051] (-) TimerEvent: {}
+[3.163397] (-) TimerEvent: {}
+[3.264474] (-) TimerEvent: {}
+[3.365966] (-) TimerEvent: {}
+[3.405476] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.464758] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.466294] (-) TimerEvent: {}
+[3.546559] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.566676] (-) TimerEvent: {}
+[3.634961] (kal_package) JobEnded: {'identifier': 'kal_package', 'rc': 0}
+[3.639672] (serial) JobStarted: {'identifier': 'serial'}
+[3.663123] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.667318] (-) TimerEvent: {}
+[3.768957] (-) TimerEvent: {}
+[3.864044] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.869461] (-) TimerEvent: {}
+[3.972129] (-) TimerEvent: {}
+[4.073421] (-) TimerEvent: {}
+[4.175170] (-) TimerEvent: {}
+[4.198240] (serial_motor_demo_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.203650] (serial_motor_demo_msgs) StdoutLine: {'line': b'writing serial_motor_demo_msgs.egg-info/PKG-INFO\n'}
+[4.205477] (serial_motor_demo_msgs) StdoutLine: {'line': b'writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt\n'}
+[4.207688] (serial_motor_demo_msgs) StdoutLine: {'line': b'writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt\n'}
+[4.229030] (serial_motor_demo_msgs) StdoutLine: {'line': b"reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'\n"}
+[4.233328] (serial_motor_demo_msgs) StdoutLine: {'line': b"writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'\n"}
+[4.279975] (-) TimerEvent: {}
+[4.332253] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[4.333127] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hussein/Documents/kal_ws/build/rplidar_ros'], 'cwd': '/home/hussein/Documents/kal_ws/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hussein'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hussein'), ('OLDPWD', '/home/hussein/Documents'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('SYSTEMD_EXEC_PID', '2057'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hussein'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hussein'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotOS:@/tmp/.ICE-unix/2027,unix/robotOS:/tmp/.ICE-unix/2027'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1529d282_2928_4911_a47e_0578f8e143e2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hussein/Documents/kal_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.348537] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[4.362758] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[4.365888] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hussein/Documents/kal_ws/build/serial', '--', '-j4', '-l4'], 'cwd': '/home/hussein/Documents/kal_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hussein'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hussein'), ('OLDPWD', '/home/hussein/Documents'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('SYSTEMD_EXEC_PID', '2057'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hussein'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hussein'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robotOS:@/tmp/.ICE-unix/2027,unix/robotOS:/tmp/.ICE-unix/2027'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1529d282_2928_4911_a47e_0578f8e143e2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hussein/Documents/kal_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.382157] (-) TimerEvent: {}
+[4.394189] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.400554] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[4.406292] (rplidar_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/hussein/Documents/kal_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition" to ""\n'}
+[4.407257] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch\n'}
+[4.407901] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py\n'}
+[4.408929] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py\n'}
+[4.410502] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py\n'}
+[4.412050] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py\n'}
+[4.413556] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py\n'}
+[4.428056] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py\n'}
+[4.430516] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py\n'}
+[4.431564] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py\n'}
+[4.432802] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py\n'}
+[4.433549] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/rviz\n'}
+[4.434134] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz\n'}
+[4.434697] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/lib/librplidar_composition_node.so\n'}
+[4.462123] (rplidar_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/hussein/Documents/kal_ws/install/rplidar_ros/lib/librplidar_composition_node.so" to ""\n'}
+[4.463096] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/include\n'}
+[4.463680] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/include/visibility.h\n'}
+[4.464502] (serial_motor_demo_msgs) StdoutLine: {'line': b'[ 78%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg\n'}
+[4.465463] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/include/rplidar_node.hpp\n'}
+[4.466852] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[4.468703] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[4.469878] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[4.471048] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[4.472906] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[4.474628] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[4.476365] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[4.477993] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[4.480468] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[4.482202] (-) TimerEvent: {}
+[4.483693] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[4.484408] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[4.486536] (serial_motor_demo_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.501385] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[4.502330] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[4.505557] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/ament_index/resource_index/rclcpp_components/rplidar_ros\n'}
+[4.522279] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.523360] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.524287] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[4.525588] (serial_motor_demo_msgs) CommandEnded: {'returncode': 2}
+[4.530328] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[4.531586] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[4.532171] (rplidar_ros) CommandEnded: {'returncode': 0}
+[4.559677] (serial) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.582581] (-) TimerEvent: {}
+[4.683518] (-) TimerEvent: {}
+[4.784582] (-) TimerEvent: {}
+[4.886953] (-) TimerEvent: {}
+[4.988068] (-) TimerEvent: {}
+[5.089405] (-) TimerEvent: {}
+[5.190775] (-) TimerEvent: {}
+[5.291898] (-) TimerEvent: {}
+[5.392827] (-) TimerEvent: {}
+[5.499004] (-) TimerEvent: {}
+[5.561196] (serial) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.6 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[5.599220] (-) TimerEvent: {}
+[5.661178] (serial) StdoutLine: {'line': b'-- Found Boost: /usr/include (found version "1.74.0")  \n'}
+[5.664636] (serial) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[5.699627] (-) TimerEvent: {}
+[5.800817] (-) TimerEvent: {}
+[5.901760] (-) TimerEvent: {}
+[6.002602] (-) TimerEvent: {}
+[6.085619] (serial_motor_demo_msgs) JobEnded: {'identifier': 'serial_motor_demo_msgs', 'rc': 2}
+[6.096479] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 'SIGINT'}
+[6.102846] (-) TimerEvent: {}
+[6.136342] (serial) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.203036] (-) TimerEvent: {}
+[6.276467] (serial) StdoutLine: {'line': b'-- Generating done\n'}
+[6.291637] (serial) StdoutLine: {'line': b'-- Build files have been written to: /home/hussein/Documents/kal_ws/build/serial\n'}
+[6.303237] (-) TimerEvent: {}
+[6.404350] (-) TimerEvent: {}
+[6.409669] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[6.410708] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial\x1b[0m\n'}
+[6.418691] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest\x1b[0m\n'}
+[6.500025] (serial) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[6.504764] (-) TimerEvent: {}
+[6.510933] (serial) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o\x1b[0m\n'}
+[6.520606] (serial) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o\x1b[0m\n'}
+[6.548260] (serial) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[6.604938] (-) TimerEvent: {}
+[6.706182] (-) TimerEvent: {}
+[6.807754] (-) TimerEvent: {}
+[6.908980] (-) TimerEvent: {}
+[7.011825] (-) TimerEvent: {}
+[7.113504] (-) TimerEvent: {}
+[7.215245] (-) TimerEvent: {}
+[7.316895] (-) TimerEvent: {}
+[7.418558] (-) TimerEvent: {}
+[7.520462] (-) TimerEvent: {}
+[7.622629] (-) TimerEvent: {}
+[7.724632] (-) TimerEvent: {}
+[7.826613] (-) TimerEvent: {}
+[7.928857] (-) TimerEvent: {}
+[8.038115] (-) TimerEvent: {}
+[8.140832] (-) TimerEvent: {}
+[8.242989] (-) TimerEvent: {}
+[8.345205] (-) TimerEvent: {}
+[8.447479] (-) TimerEvent: {}
+[8.550482] (-) TimerEvent: {}
+[8.652489] (-) TimerEvent: {}
+[8.754285] (-) TimerEvent: {}
+[8.856351] (-) TimerEvent: {}
+[8.958800] (-) TimerEvent: {}
+[9.061311] (-) TimerEvent: {}
+[9.164839] (-) TimerEvent: {}
+[9.267201] (-) TimerEvent: {}
+[9.369464] (-) TimerEvent: {}
+[9.470748] (-) TimerEvent: {}
+[9.571960] (-) TimerEvent: {}
+[9.673230] (-) TimerEvent: {}
+[9.774475] (-) TimerEvent: {}
+[9.875882] (-) TimerEvent: {}
+[9.931990] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[9.976174] (-) TimerEvent: {}
+[10.004642] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[10.076495] (-) TimerEvent: {}
+[10.177845] (-) TimerEvent: {}
+[10.279100] (-) TimerEvent: {}
+[10.381179] (-) TimerEvent: {}
+[10.482260] (-) TimerEvent: {}
+[10.489451] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[10.582516] (-) TimerEvent: {}
+[10.591266] (serial) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o\x1b[0m\n'}
+[10.682808] (-) TimerEvent: {}
+[10.784030] (-) TimerEvent: {}
+[10.881341] (diffdrive_arduino) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[10.884343] (-) TimerEvent: {}
+[10.939203] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[10.984905] (-) TimerEvent: {}
+[11.050236] (diffdrive_arduino) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[11.085046] (-) TimerEvent: {}
+[11.122511] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[11.184831] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[11.186241] (-) TimerEvent: {}
+[11.255063] (diffdrive_arduino) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.286589] (-) TimerEvent: {}
+[11.387898] (-) TimerEvent: {}
+[11.393248] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[11.488150] (-) TimerEvent: {}
+[11.589713] (-) TimerEvent: {}
+[11.691133] (-) TimerEvent: {}
+[11.792397] (-) TimerEvent: {}
+[11.893679] (-) TimerEvent: {}
+[11.995152] (-) TimerEvent: {}
+[12.097269] (-) TimerEvent: {}
+[12.109064] (diffdrive_arduino) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[12.120856] (diffdrive_arduino) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[12.197755] (-) TimerEvent: {}
+[12.301385] (-) TimerEvent: {}
+[12.403698] (-) TimerEvent: {}
+[12.505940] (-) TimerEvent: {}
+[12.609619] (-) TimerEvent: {}
+[12.712255] (-) TimerEvent: {}
+[12.813902] (-) TimerEvent: {}
+[12.916438] (-) TimerEvent: {}
+[13.018913] (-) TimerEvent: {}
+[13.118117] (diffdrive_arduino) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[13.120515] (-) TimerEvent: {}
+[13.139554] (diffdrive_arduino) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[13.221084] (-) TimerEvent: {}
+[13.325266] (-) TimerEvent: {}
+[13.430103] (-) TimerEvent: {}
+[13.533694] (-) TimerEvent: {}
+[13.637429] (-) TimerEvent: {}
+[13.741162] (-) TimerEvent: {}
+[13.844910] (-) TimerEvent: {}
+[13.948579] (-) TimerEvent: {}
+[14.052329] (-) TimerEvent: {}
+[14.155376] (-) TimerEvent: {}
+[14.258975] (-) TimerEvent: {}
+[14.362651] (-) TimerEvent: {}
+[14.464859] (-) TimerEvent: {}
+[14.566863] (-) TimerEvent: {}
+[14.668969] (-) TimerEvent: {}
+[14.772147] (-) TimerEvent: {}
+[14.874674] (-) TimerEvent: {}
+[14.977203] (-) TimerEvent: {}
+[15.080030] (-) TimerEvent: {}
+[15.182715] (-) TimerEvent: {}
+[15.286435] (-) TimerEvent: {}
+[15.388125] (-) TimerEvent: {}
+[15.490006] (-) TimerEvent: {}
+[15.591856] (-) TimerEvent: {}
+[15.693451] (-) TimerEvent: {}
+[15.794757] (-) TimerEvent: {}
+[15.895846] (-) TimerEvent: {}
+[15.997071] (-) TimerEvent: {}
+[16.099405] (-) TimerEvent: {}
+[16.201001] (-) TimerEvent: {}
+[16.303875] (-) TimerEvent: {}
+[16.406597] (-) TimerEvent: {}
+[16.510608] (-) TimerEvent: {}
+[16.615019] (-) TimerEvent: {}
+[16.694466] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.6 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[16.715622] (-) TimerEvent: {}
+[16.818886] (-) TimerEvent: {}
+[16.896279] (serial) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX static library libserial.a\x1b[0m\n'}
+[16.919287] (-) TimerEvent: {}
+[17.020792] (-) TimerEvent: {}
+[17.122183] (-) TimerEvent: {}
+[17.197102] (serial) StdoutLine: {'line': b'[ 42%] Built target serial\n'}
+[17.222538] (-) TimerEvent: {}
+[17.303377] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial_example\x1b[0m\n'}
+[17.322951] (-) TimerEvent: {}
+[17.425222] (-) TimerEvent: {}
+[17.426772] (serial) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o\x1b[0m\n'}
+[17.454869] (diffdrive_arduino) StdoutLine: {'line': b'-- Configuring done\n'}
+[17.525744] (-) TimerEvent: {}
+[17.627492] (-) TimerEvent: {}
+[17.728622] (-) TimerEvent: {}
+[17.829850] (-) TimerEvent: {}
+[17.913902] (diffdrive_arduino) StdoutLine: {'line': b'-- Generating done\n'}
+[17.930183] (-) TimerEvent: {}
+[17.932178] (diffdrive_arduino) StdoutLine: {'line': b'-- Build files have been written to: /home/hussein/Documents/kal_ws/build/diffdrive_arduino\n'}
+[18.030769] (serial) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[18.031919] (-) TimerEvent: {}
+[18.135136] (-) TimerEvent: {}
+[18.149731] (diffdrive_arduino) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target diffdrive_arduino\x1b[0m\n'}
+[18.235383] (-) TimerEvent: {}
+[18.311294] (serial) StdoutLine: {'line': b'[ 57%] Built target gtest_main\n'}
+[18.335614] (-) TimerEvent: {}
+[18.417943] (diffdrive_arduino) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o\x1b[0m\n'}
+[18.435888] (-) TimerEvent: {}
+[18.537988] (-) TimerEvent: {}
+[18.639098] (-) TimerEvent: {}
+[18.740146] (-) TimerEvent: {}
+[18.841460] (-) TimerEvent: {}
+[18.943163] (-) TimerEvent: {}
+[19.044782] (-) TimerEvent: {}
+[19.146472] (-) TimerEvent: {}
+[19.248321] (-) TimerEvent: {}
+[19.350804] (-) TimerEvent: {}
+[19.452824] (-) TimerEvent: {}
+[19.554645] (-) TimerEvent: {}
+[19.656339] (-) TimerEvent: {}
+[19.751603] (serial) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable serial_example\x1b[0m\n'}
+[19.756555] (-) TimerEvent: {}
+[19.857624] (-) TimerEvent: {}
+[19.959864] (-) TimerEvent: {}
+[20.030321] (diffdrive_arduino) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/diffbot_system.hpp:34\x1b[m\x1b[K,\n'}
+[20.031539] (diffdrive_arduino) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/hardware/diffbot_system.cpp:15\x1b[m\x1b[K:\n'}
+[20.032473] (diffdrive_arduino) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/diffdrive_arduino/hardware/include/diffdrive_arduino/arduino_comms.hpp:7:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Klibserial/SerialPort.h: No such file or directory\n'}
+[20.033476] (diffdrive_arduino) StderrLine: {'line': b'    7 | #include \x1b[01;31m\x1b[K<libserial/SerialPort.h>\x1b[m\x1b[K\n'}
+[20.034262] (diffdrive_arduino) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.035288] (diffdrive_arduino) StderrLine: {'line': b'compilation terminated.\n'}
+[20.041693] (diffdrive_arduino) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/diffdrive_arduino.dir/build.make:76: CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o] Error 1\n'}
+[20.044985] (diffdrive_arduino) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/diffdrive_arduino.dir/all] Error 2\n'}
+[20.045922] (diffdrive_arduino) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[20.053660] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 'SIGINT'}
+[20.060082] (-) TimerEvent: {}
+[20.161346] (-) TimerEvent: {}
+[20.263547] (-) TimerEvent: {}
+[20.267992] (serial) StdoutLine: {'line': b'[ 64%] Built target serial_example\n'}
+[20.363931] (-) TimerEvent: {}
+[20.465636] (-) TimerEvent: {}
+[20.567092] (-) TimerEvent: {}
+[20.667946] (-) TimerEvent: {}
+[20.768847] (-) TimerEvent: {}
+[20.869690] (-) TimerEvent: {}
+[20.970518] (-) TimerEvent: {}
+[21.071438] (-) TimerEvent: {}
+[21.172298] (-) TimerEvent: {}
+[21.273218] (-) TimerEvent: {}
+[21.374072] (-) TimerEvent: {}
+[21.474937] (-) TimerEvent: {}
+[21.575725] (-) TimerEvent: {}
+[21.676517] (-) TimerEvent: {}
+[21.777398] (-) TimerEvent: {}
+[21.878338] (-) TimerEvent: {}
+[21.979217] (-) TimerEvent: {}
+[22.080106] (-) TimerEvent: {}
+[22.181145] (-) TimerEvent: {}
+[22.282023] (-) TimerEvent: {}
+[22.382871] (-) TimerEvent: {}
+[22.483722] (-) TimerEvent: {}
+[22.584613] (-) TimerEvent: {}
+[22.685568] (-) TimerEvent: {}
+[22.786410] (-) TimerEvent: {}
+[22.887274] (-) TimerEvent: {}
+[22.988419] (-) TimerEvent: {}
+[23.089313] (-) TimerEvent: {}
+[23.190154] (-) TimerEvent: {}
+[23.291085] (-) TimerEvent: {}
+[23.391923] (-) TimerEvent: {}
+[23.492995] (-) TimerEvent: {}
+[23.594172] (-) TimerEvent: {}
+[23.695410] (-) TimerEvent: {}
+[23.796308] (-) TimerEvent: {}
+[23.897467] (-) TimerEvent: {}
+[23.998307] (-) TimerEvent: {}
+[24.099248] (-) TimerEvent: {}
+[24.200143] (-) TimerEvent: {}
+[24.301037] (-) TimerEvent: {}
+[24.401927] (-) TimerEvent: {}
+[24.502981] (-) TimerEvent: {}
+[24.604209] (-) TimerEvent: {}
+[24.705099] (-) TimerEvent: {}
+[24.805922] (-) TimerEvent: {}
+[24.906799] (-) TimerEvent: {}
+[25.007618] (-) TimerEvent: {}
+[25.108404] (-) TimerEvent: {}
+[25.209362] (-) TimerEvent: {}
+[25.310219] (-) TimerEvent: {}
+[25.411040] (-) TimerEvent: {}
+[25.511867] (-) TimerEvent: {}
+[25.612821] (-) TimerEvent: {}
+[25.713678] (-) TimerEvent: {}
+[25.814531] (-) TimerEvent: {}
+[25.915413] (-) TimerEvent: {}
+[26.016271] (-) TimerEvent: {}
+[26.117167] (-) TimerEvent: {}
+[26.218023] (-) TimerEvent: {}
+[26.318853] (-) TimerEvent: {}
+[26.419710] (-) TimerEvent: {}
+[26.520575] (-) TimerEvent: {}
+[26.621496] (-) TimerEvent: {}
+[26.722360] (-) TimerEvent: {}
+[26.823238] (-) TimerEvent: {}
+[26.924075] (-) TimerEvent: {}
+[27.024980] (-) TimerEvent: {}
+[27.125867] (-) TimerEvent: {}
+[27.226734] (-) TimerEvent: {}
+[27.327666] (-) TimerEvent: {}
+[27.428543] (-) TimerEvent: {}
+[27.529398] (-) TimerEvent: {}
+[27.630281] (-) TimerEvent: {}
+[27.731160] (-) TimerEvent: {}
+[27.831999] (-) TimerEvent: {}
+[27.932879] (-) TimerEvent: {}
+[28.033710] (-) TimerEvent: {}
+[28.134683] (-) TimerEvent: {}
+[28.284484] (-) TimerEvent: {}
+[28.385383] (-) TimerEvent: {}
+[28.486206] (-) TimerEvent: {}
+[28.587067] (-) TimerEvent: {}
+[28.687925] (-) TimerEvent: {}
+[28.788853] (-) TimerEvent: {}
+[28.890490] (-) TimerEvent: {}
+[28.991690] (-) TimerEvent: {}
+[29.092566] (-) TimerEvent: {}
+[29.193500] (-) TimerEvent: {}
+[29.294349] (-) TimerEvent: {}
+[29.395275] (-) TimerEvent: {}
+[29.496392] (-) TimerEvent: {}
+[29.597490] (-) TimerEvent: {}
+[29.654492] (serial) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[29.697677] (-) TimerEvent: {}
+[29.798520] (-) TimerEvent: {}
+[29.899787] (-) TimerEvent: {}
+[29.997029] (serial) StdoutLine: {'line': b'[ 71%] Built target gtest\n'}
+[29.999906] (-) TimerEvent: {}
+[30.053231] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial-test-timer\x1b[0m\n'}
+[30.053923] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial-test\x1b[0m\n'}
+[30.100191] (-) TimerEvent: {}
+[30.132046] (serial) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o\x1b[0m\n'}
+[30.180700] (serial) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o\x1b[0m\n'}
+[30.200391] (-) TimerEvent: {}
+[30.301355] (-) TimerEvent: {}
+[30.402341] (-) TimerEvent: {}
+[30.503438] (-) TimerEvent: {}
+[30.604472] (-) TimerEvent: {}
+[30.705546] (-) TimerEvent: {}
+[30.806562] (-) TimerEvent: {}
+[30.907381] (-) TimerEvent: {}
+[31.008330] (-) TimerEvent: {}
+[31.109321] (-) TimerEvent: {}
+[31.210357] (-) TimerEvent: {}
+[31.311402] (-) TimerEvent: {}
+[31.412351] (-) TimerEvent: {}
+[31.513360] (-) TimerEvent: {}
+[31.614685] (-) TimerEvent: {}
+[31.715670] (-) TimerEvent: {}
+[31.816775] (-) TimerEvent: {}
+[31.918009] (-) TimerEvent: {}
+[32.019444] (-) TimerEvent: {}
+[32.120376] (-) TimerEvent: {}
+[32.221475] (-) TimerEvent: {}
+[32.322556] (-) TimerEvent: {}
+[32.423509] (-) TimerEvent: {}
+[32.524599] (-) TimerEvent: {}
+[32.625754] (-) TimerEvent: {}
+[32.726893] (-) TimerEvent: {}
+[32.828107] (-) TimerEvent: {}
+[32.929086] (-) TimerEvent: {}
+[33.030095] (-) TimerEvent: {}
+[33.131152] (-) TimerEvent: {}
+[33.232882] (-) TimerEvent: {}
+[33.334617] (-) TimerEvent: {}
+[33.436059] (-) TimerEvent: {}
+[33.537686] (-) TimerEvent: {}
+[33.639236] (-) TimerEvent: {}
+[33.740636] (-) TimerEvent: {}
+[33.841772] (-) TimerEvent: {}
+[33.943460] (-) TimerEvent: {}
+[34.045680] (-) TimerEvent: {}
+[34.147761] (-) TimerEvent: {}
+[34.249847] (-) TimerEvent: {}
+[34.352837] (-) TimerEvent: {}
+[34.456542] (-) TimerEvent: {}
+[34.559279] (-) TimerEvent: {}
+[34.661345] (-) TimerEvent: {}
+[34.763414] (-) TimerEvent: {}
+[34.865435] (-) TimerEvent: {}
+[34.968181] (-) TimerEvent: {}
+[35.070859] (-) TimerEvent: {}
+[35.172599] (-) TimerEvent: {}
+[35.274249] (-) TimerEvent: {}
+[35.375865] (-) TimerEvent: {}
+[35.478326] (-) TimerEvent: {}
+[35.580812] (-) TimerEvent: {}
+[35.683226] (-) TimerEvent: {}
+[35.785158] (-) TimerEvent: {}
+[35.887158] (-) TimerEvent: {}
+[35.988935] (-) TimerEvent: {}
+[36.091959] (-) TimerEvent: {}
+[36.193408] (-) TimerEvent: {}
+[36.295222] (-) TimerEvent: {}
+[36.396319] (-) TimerEvent: {}
+[36.497559] (-) TimerEvent: {}
+[36.598544] (-) TimerEvent: {}
+[36.699668] (-) TimerEvent: {}
+[36.800756] (-) TimerEvent: {}
+[36.902241] (-) TimerEvent: {}
+[37.003233] (-) TimerEvent: {}
+[37.104429] (-) TimerEvent: {}
+[37.205641] (-) TimerEvent: {}
+[37.307103] (-) TimerEvent: {}
+[37.362348] (serial) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable serial-test-timer\x1b[0m\n'}
+[37.407346] (-) TimerEvent: {}
+[37.488786] (serial) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/bind.hpp:30\x1b[m\x1b[K,\n'}
+[37.489711] (serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/serial/tests/unix_serial_tests.cc:23\x1b[m\x1b[K:\n'}
+[37.490298] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[37.490871] (serial) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[37.491396] (serial) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[37.507688] (-) TimerEvent: {}
+[37.608849] (-) TimerEvent: {}
+[37.709958] (-) TimerEvent: {}
+[37.810822] (-) TimerEvent: {}
+[37.912063] (-) TimerEvent: {}
+[38.014363] (-) TimerEvent: {}
+[38.085479] (serial) StdoutLine: {'line': b'[ 92%] Built target serial-test-timer\n'}
+[38.114590] (-) TimerEvent: {}
+[38.215421] (-) TimerEvent: {}
+[38.316344] (-) TimerEvent: {}
+[38.417605] (-) TimerEvent: {}
+[38.518411] (-) TimerEvent: {}
+[38.619389] (-) TimerEvent: {}
+[38.637605] (serial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable serial-test\x1b[0m\n'}
+[38.719572] (-) TimerEvent: {}
+[38.820529] (-) TimerEvent: {}
+[38.921527] (-) TimerEvent: {}
+[39.022510] (-) TimerEvent: {}
+[39.123733] (-) TimerEvent: {}
+[39.224660] (-) TimerEvent: {}
+[39.314697] (serial) StdoutLine: {'line': b'[100%] Built target serial-test\n'}
+[39.324867] (-) TimerEvent: {}
+[39.363682] (serial) JobEnded: {'identifier': 'serial', 'rc': 'SIGINT'}
+[39.376256] (serial_motor_demo) JobSkipped: {'identifier': 'serial_motor_demo'}
+[39.376826] (-) EventReactorShutdown: {}

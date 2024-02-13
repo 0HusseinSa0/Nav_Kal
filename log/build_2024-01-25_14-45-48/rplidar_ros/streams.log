@@ -1,0 +1,43 @@
+[0.577s] Invoking command in '/home/hussein/Documents/kal_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/rplidar_ros -- -j4 -l4
+[1.390s] [ 77%] Built target rplidar_composition_node
+[1.554s] [100%] Built target rplidar_composition
+[1.792s] Invoked command in '/home/hussein/Documents/kal_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/rplidar_ros -- -j4 -l4
+[2.284s] Invoking command in '/home/hussein/Documents/kal_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hussein/Documents/kal_ws/build/rplidar_ros
+[2.326s] -- Install configuration: ""
+[2.326s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[2.328s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch
+[2.329s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py
+[2.330s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py
+[2.333s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py
+[2.334s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py
+[2.335s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py
+[2.337s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py
+[2.338s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py
+[2.348s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py
+[2.353s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py
+[2.354s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/rviz
+[2.358s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz
+[2.361s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/lib/librplidar_composition_node.so
+[2.362s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/include
+[2.363s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/include/visibility.h
+[2.364s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/include/rplidar_node.hpp
+[2.366s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[2.371s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[2.372s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[2.373s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[2.374s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[2.375s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[2.375s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[2.376s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[2.379s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[2.384s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[2.385s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[2.386s] -- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[2.393s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[2.396s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/ament_index/resource_index/rclcpp_components/rplidar_ros
+[2.397s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.397s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.398s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[2.399s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[2.400s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[2.668s] Invoked command in '/home/hussein/Documents/kal_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hussein/Documents/kal_ws/build/rplidar_ros

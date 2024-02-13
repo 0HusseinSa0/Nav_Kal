@@ -1,0 +1,6 @@
+[0.668s] Invoking command in '/home/hussein/Documents/kal_ws/build/kal_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/kal_package -- -j4 -l4
+[0.736s] [0mCMake Error: The current CMakeCache.txt directory /home/hussein/Documents/kal_ws/build/kal_package/CMakeCache.txt is different than the directory /home/hussein/Documents/robotWs/build/kal_package where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.783s] [0mCMake Error: The source directory "/home/hussein/Documents/robotWs/src/kal_package" does not exist.
+[0.785s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.791s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.816s] Invoked command in '/home/hussein/Documents/kal_ws/build/kal_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/kal_package -- -j4 -l4

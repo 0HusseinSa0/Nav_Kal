@@ -1,0 +1,23 @@
+[1.380s] Invoking command in '/home/hussein/Documents/kal_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[1.737s] [ 10%] Built target serial_motor_demo_msgs__rosidl_generator_c
+[1.742s] [ 12%] Built target serial_motor_demo_msgs__cpp
+[1.881s] [ 12%] Built target ament_cmake_python_copy_serial_motor_demo_msgs
+[1.920s] [ 23%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c
+[1.967s] [ 34%] Built target serial_motor_demo_msgs__rosidl_typesupport_c
+[2.008s] [ 44%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c
+[2.098s] [ 55%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[2.142s] [ 65%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp
+[2.177s] [ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp
+[2.361s] [ 76%] Built target serial_motor_demo_msgs
+[2.511s] [ 78%] Built target serial_motor_demo_msgs__py
+[2.601s] gmake[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libpython3.10.so', needed by 'rosidl_generator_py/serial_motor_demo_msgs/libserial_motor_demo_msgs__rosidl_generator_py.so'.  Stop.
+[2.602s] gmake[1]: *** [CMakeFiles/Makefile2:475: CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/all] Error 2
+[2.604s] gmake[1]: *** Waiting for unfinished jobs....
+[4.133s] running egg_info
+[4.172s] writing serial_motor_demo_msgs.egg-info/PKG-INFO
+[4.173s] writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt
+[4.175s] writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt
+[4.193s] reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[4.197s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[4.327s] [ 78%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg
+[4.334s] gmake: *** [Makefile:146: all] Error 2

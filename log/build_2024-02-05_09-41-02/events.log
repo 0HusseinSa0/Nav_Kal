@@ -1,0 +1,1069 @@
+[0.000000] (-) TimerEvent: {}
+[0.006775] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict()}
+[0.007033] (kal_package) JobQueued: {'identifier': 'kal_package', 'dependencies': OrderedDict()}
+[0.007150] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.007681] (serial) JobQueued: {'identifier': 'serial', 'dependencies': OrderedDict()}
+[0.008052] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[0.099031] (-) TimerEvent: {}
+[0.201459] (-) TimerEvent: {}
+[0.302425] (-) TimerEvent: {}
+[0.395828] (kal_package) JobStarted: {'identifier': 'kal_package'}
+[0.402566] (-) TimerEvent: {}
+[0.504050] (-) TimerEvent: {}
+[0.605225] (-) TimerEvent: {}
+[0.706490] (-) TimerEvent: {}
+[0.762919] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.806755] (-) TimerEvent: {}
+[0.907840] (-) TimerEvent: {}
+[1.009997] (-) TimerEvent: {}
+[1.110817] (-) TimerEvent: {}
+[1.127530] (serial) JobStarted: {'identifier': 'serial'}
+[1.211080] (-) TimerEvent: {}
+[1.312150] (-) TimerEvent: {}
+[1.413205] (-) TimerEvent: {}
+[1.502929] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[1.509406] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[1.513236] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hussein/Documents/kal_ws/build/diffdrive_arduino', '--', '-j4', '-l4'], 'cwd': '/home/hussein/Documents/kal_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hussein'), ('SSH_CLIENT', '192.168.0.100 57920 22'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs/lib:/home/hussein/Documents/kal_ws/install/serial/lib:/home/hussein/Documents/kal_ws/install/rplidar_ros/lib:/home/hussein/Documents/kal_ws/install/diffdrive_arduino/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/hussein'), ('OLDPWD', '/home/hussein'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/hussein/Documents/kal_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hussein'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo:/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs:/home/hussein/Documents/kal_ws/install/serial:/home/hussein/Documents/kal_ws/install/rplidar_ros:/home/hussein/Documents/kal_ws/install/kal_package:/home/hussein/Documents/kal_ws/install/diffdrive_arduino:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('PWD', '/home/hussein/Documents/kal_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.100 57920 192.168.0.101 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs:/home/hussein/Documents/kal_ws/install/serial:/home/hussein/Documents/kal_ws/install/rplidar_ros:/home/hussein/Documents/kal_ws/install/kal_package:/home/hussein/Documents/kal_ws/install/diffdrive_arduino:/home/hussein/Documents/kal_ws/install/serial_motor_demo:/opt/ros/humble')]), 'shell': False}
+[1.518885] (-) TimerEvent: {}
+[1.534251] (kal_package) JobProgress: {'identifier': 'kal_package', 'progress': 'cmake'}
+[1.542728] (kal_package) JobProgress: {'identifier': 'kal_package', 'progress': 'build'}
+[1.550755] (kal_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hussein/Documents/kal_ws/build/kal_package', '--', '-j4', '-l4'], 'cwd': '/home/hussein/Documents/kal_ws/build/kal_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hussein'), ('SSH_CLIENT', '192.168.0.100 57920 22'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs/lib:/home/hussein/Documents/kal_ws/install/serial/lib:/home/hussein/Documents/kal_ws/install/rplidar_ros/lib:/home/hussein/Documents/kal_ws/install/diffdrive_arduino/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/hussein'), ('OLDPWD', '/home/hussein'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/hussein/Documents/kal_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hussein'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo:/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs:/home/hussein/Documents/kal_ws/install/serial:/home/hussein/Documents/kal_ws/install/rplidar_ros:/home/hussein/Documents/kal_ws/install/kal_package:/home/hussein/Documents/kal_ws/install/diffdrive_arduino:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('PWD', '/home/hussein/Documents/kal_ws/build/kal_package'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.100 57920 192.168.0.101 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs:/home/hussein/Documents/kal_ws/install/serial:/home/hussein/Documents/kal_ws/install/rplidar_ros:/home/hussein/Documents/kal_ws/install/kal_package:/home/hussein/Documents/kal_ws/install/diffdrive_arduino:/home/hussein/Documents/kal_ws/install/serial_motor_demo:/opt/ros/humble')]), 'shell': False}
+[1.557454] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[1.567079] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[1.569336] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hussein/Documents/kal_ws/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/hussein/Documents/kal_ws/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hussein'), ('SSH_CLIENT', '192.168.0.100 57920 22'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs/lib:/home/hussein/Documents/kal_ws/install/serial/lib:/home/hussein/Documents/kal_ws/install/rplidar_ros/lib:/home/hussein/Documents/kal_ws/install/diffdrive_arduino/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/hussein'), ('OLDPWD', '/home/hussein'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/hussein/Documents/kal_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hussein'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo:/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs:/home/hussein/Documents/kal_ws/install/serial:/home/hussein/Documents/kal_ws/install/rplidar_ros:/home/hussein/Documents/kal_ws/install/kal_package:/home/hussein/Documents/kal_ws/install/diffdrive_arduino:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('PWD', '/home/hussein/Documents/kal_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.100 57920 192.168.0.101 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs:/home/hussein/Documents/kal_ws/install/serial:/home/hussein/Documents/kal_ws/install/rplidar_ros:/home/hussein/Documents/kal_ws/install/kal_package:/home/hussein/Documents/kal_ws/install/diffdrive_arduino:/home/hussein/Documents/kal_ws/install/serial_motor_demo:/opt/ros/humble')]), 'shell': False}
+[1.618099] (serial) JobProgress: {'identifier': 'serial', 'progress': 'cmake'}
+[1.619013] (-) TimerEvent: {}
+[1.628107] (serial) JobProgress: {'identifier': 'serial', 'progress': 'build'}
+[1.629905] (serial) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hussein/Documents/kal_ws/build/serial', '--', '-j4', '-l4'], 'cwd': '/home/hussein/Documents/kal_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hussein'), ('SSH_CLIENT', '192.168.0.100 57920 22'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs/lib:/home/hussein/Documents/kal_ws/install/serial/lib:/home/hussein/Documents/kal_ws/install/rplidar_ros/lib:/home/hussein/Documents/kal_ws/install/diffdrive_arduino/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/hussein'), ('OLDPWD', '/home/hussein'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/hussein/Documents/kal_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hussein'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo:/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs:/home/hussein/Documents/kal_ws/install/serial:/home/hussein/Documents/kal_ws/install/rplidar_ros:/home/hussein/Documents/kal_ws/install/kal_package:/home/hussein/Documents/kal_ws/install/diffdrive_arduino:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('PWD', '/home/hussein/Documents/kal_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.100 57920 192.168.0.101 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs:/home/hussein/Documents/kal_ws/install/serial:/home/hussein/Documents/kal_ws/install/rplidar_ros:/home/hussein/Documents/kal_ws/install/kal_package:/home/hussein/Documents/kal_ws/install/diffdrive_arduino:/home/hussein/Documents/kal_ws/install/serial_motor_demo:/opt/ros/humble')]), 'shell': False}
+[1.719268] (-) TimerEvent: {}
+[1.820304] (-) TimerEvent: {}
+[1.921295] (-) TimerEvent: {}
+[2.022995] (-) TimerEvent: {}
+[2.124405] (-) TimerEvent: {}
+[2.225701] (-) TimerEvent: {}
+[2.327735] (-) TimerEvent: {}
+[2.428735] (-) TimerEvent: {}
+[2.499857] (kal_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.501968] (serial) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.529018] (-) TimerEvent: {}
+[2.630737] (-) TimerEvent: {}
+[2.666000] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.691643] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.7 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[2.730933] (-) TimerEvent: {}
+[2.832663] (-) TimerEvent: {}
+[2.935449] (-) TimerEvent: {}
+[3.038941] (-) TimerEvent: {}
+[3.141004] (-) TimerEvent: {}
+[3.243084] (-) TimerEvent: {}
+[3.344653] (-) TimerEvent: {}
+[3.446573] (-) TimerEvent: {}
+[3.547459] (-) TimerEvent: {}
+[3.648367] (-) TimerEvent: {}
+[3.749253] (-) TimerEvent: {}
+[3.850707] (-) TimerEvent: {}
+[3.953829] (-) TimerEvent: {}
+[4.023447] (serial) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.7 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[4.025746] (kal_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.028571] (diffdrive_arduino) StdoutLine: {'line': b'-- Found hardware_interface: 2.37.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[4.053990] (-) TimerEvent: {}
+[4.062580] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.154173] (-) TimerEvent: {}
+[4.186074] (serial) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[4.254388] (-) TimerEvent: {}
+[4.356452] (-) TimerEvent: {}
+[4.435538] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.456732] (-) TimerEvent: {}
+[4.464964] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.556972] (-) TimerEvent: {}
+[4.571595] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.613400] (kal_package) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.625378] (kal_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.632945] (kal_package) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.657287] (-) TimerEvent: {}
+[4.678039] (kal_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.690469] (kal_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.692305] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.748946] (kal_package) StdoutLine: {'line': b'-- Generating done\n'}
+[4.757619] (-) TimerEvent: {}
+[4.763531] (kal_package) StdoutLine: {'line': b'-- Build files have been written to: /home/hussein/Documents/kal_ws/build/kal_package\n'}
+[4.821838] (serial) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.857775] (-) TimerEvent: {}
+[4.899811] (kal_package) CommandEnded: {'returncode': 0}
+[4.904036] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.904713] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.911723] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.946191] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.957970] (-) TimerEvent: {}
+[5.010648] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.016363] (serial) StdoutLine: {'line': b'-- Generating done\n'}
+[5.033704] (serial) StdoutLine: {'line': b'-- Build files have been written to: /home/hussein/Documents/kal_ws/build/serial\n'}
+[5.058155] (-) TimerEvent: {}
+[5.101372] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.124119] (kal_package) JobProgress: {'identifier': 'kal_package', 'progress': 'install'}
+[5.158463] (-) TimerEvent: {}
+[5.235587] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial\x1b[0m\n'}
+[5.256381] (kal_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hussein/Documents/kal_ws/build/kal_package'], 'cwd': '/home/hussein/Documents/kal_ws/build/kal_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hussein'), ('SSH_CLIENT', '192.168.0.100 57920 22'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs/lib:/home/hussein/Documents/kal_ws/install/serial/lib:/home/hussein/Documents/kal_ws/install/rplidar_ros/lib:/home/hussein/Documents/kal_ws/install/diffdrive_arduino/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/hussein'), ('OLDPWD', '/home/hussein'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/hussein/Documents/kal_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hussein'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo:/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs:/home/hussein/Documents/kal_ws/install/serial:/home/hussein/Documents/kal_ws/install/rplidar_ros:/home/hussein/Documents/kal_ws/install/kal_package:/home/hussein/Documents/kal_ws/install/diffdrive_arduino:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('PWD', '/home/hussein/Documents/kal_ws/build/kal_package'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.100 57920 192.168.0.101 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs:/home/hussein/Documents/kal_ws/install/serial:/home/hussein/Documents/kal_ws/install/rplidar_ros:/home/hussein/Documents/kal_ws/install/kal_package:/home/hussein/Documents/kal_ws/install/diffdrive_arduino:/home/hussein/Documents/kal_ws/install/serial_motor_demo:/opt/ros/humble')]), 'shell': False}
+[5.261560] (-) TimerEvent: {}
+[5.263008] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[5.269931] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest\x1b[0m\n'}
+[5.317044] (kal_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.319057] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src\n'}
+[5.321209] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description\n'}
+[5.323147] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/gazebo.xacro\n'}
+[5.324786] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/wheels.xacro\n'}
+[5.326432] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/ros2_control0.xacro\n'}
+[5.327957] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/lidar.xacro\n'}
+[5.331437] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/imu.xacro\n'}
+[5.332986] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/sensors.xacro\n'}
+[5.336156] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/inertial_fns.xacro\n'}
+[5.337237] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/ros2_control.xacro\n'}
+[5.338441] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/main.urdf\n'}
+[5.340149] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/src/description/base.xacro\n'}
+[5.341230] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/launch\n'}
+[5.343759] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/launch/rsp.launch.py\n'}
+[5.345447] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/launch/navigation_launch.py\n'}
+[5.347069] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/launch/launch_robot.launch.py\n'}
+[5.348903] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/launch/localization_launch.py\n'}
+[5.351344] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/launch/test_launch.py\n'}
+[5.353015] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/launch/online_async_launch.py\n'}
+[5.354353] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/rviz\n'}
+[5.356711] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/config\n'}
+[5.359149] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/config/gazebo_params.yaml\n'}
+[5.361104] (kal_package) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/config/husseinMap.data\n'}
+[5.363309] (-) TimerEvent: {}
+[5.373749] (kal_package) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/config/husseinMap.yaml\n'}
+[5.379998] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/config/mapper_params_online_async.yaml\n'}
+[5.382966] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/config/mapper_params_localization.yaml\n'}
+[5.384744] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/config/twist_mux.yaml\n'}
+[5.385391] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/config/my_controllers.yaml\n'}
+[5.386267] (kal_package) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/config/husseinMap.pgm\n'}
+[5.390993] (kal_package) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/config/nav2_params.yaml\n'}
+[5.392928] (kal_package) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/config/husseinMap.posegraph\n'}
+[5.463565] (-) TimerEvent: {}
+[5.565408] (-) TimerEvent: {}
+[5.590591] (serial) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[5.620991] (serial) StdoutLine: {'line': b'[ 35%] Built target serial\n'}
+[5.647076] (serial) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[5.665643] (-) TimerEvent: {}
+[5.682153] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/world\n'}
+[5.683106] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/world/waell.sdf\n'}
+[5.684070] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/ament_index/resource_index/package_run_dependencies/kal_package\n'}
+[5.685201] (kal_package) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/kal_package/share/ament_index/resource_index/parent_prefix_path/kal_package\n'}
+[5.687409] (kal_package) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/environment/ament_prefix_path.sh\n'}
+[5.689524] (kal_package) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/environment/ament_prefix_path.dsv\n'}
+[5.692493] (kal_package) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/environment/path.sh\n'}
+[5.694245] (kal_package) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/environment/path.dsv\n'}
+[5.696238] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/local_setup.bash\n'}
+[5.697165] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/local_setup.sh\n'}
+[5.697995] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/local_setup.zsh\n'}
+[5.698653] (kal_package) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/local_setup.dsv\n'}
+[5.700645] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial_example\x1b[0m\n'}
+[5.704894] (kal_package) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/package.dsv\n'}
+[5.705738] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/ament_index/resource_index/packages/kal_package\n'}
+[5.706258] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/cmake/kal_packageConfig.cmake\n'}
+[5.707000] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/cmake/kal_packageConfig-version.cmake\n'}
+[5.707772] (kal_package) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/package.xml\n'}
+[5.713923] (kal_package) CommandEnded: {'returncode': 0}
+[5.741247] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.765777] (-) TimerEvent: {}
+[5.771622] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.813624] (serial) StdoutLine: {'line': b'[ 57%] Built target serial_example\n'}
+[5.867310] (-) TimerEvent: {}
+[5.970280] (-) TimerEvent: {}
+[6.071403] (-) TimerEvent: {}
+[6.173494] (-) TimerEvent: {}
+[6.275564] (-) TimerEvent: {}
+[6.381673] (-) TimerEvent: {}
+[6.482661] (-) TimerEvent: {}
+[6.583647] (-) TimerEvent: {}
+[6.685043] (-) TimerEvent: {}
+[6.791739] (-) TimerEvent: {}
+[6.910710] (-) TimerEvent: {}
+[7.011432] (-) TimerEvent: {}
+[7.112942] (-) TimerEvent: {}
+[7.215741] (-) TimerEvent: {}
+[7.230225] (kal_package) JobEnded: {'identifier': 'kal_package', 'rc': 0}
+[7.315941] (-) TimerEvent: {}
+[7.416860] (-) TimerEvent: {}
+[7.517778] (-) TimerEvent: {}
+[7.523384] (rplidar_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.617866] (-) TimerEvent: {}
+[7.719161] (-) TimerEvent: {}
+[7.820177] (-) TimerEvent: {}
+[7.921259] (-) TimerEvent: {}
+[8.022986] (-) TimerEvent: {}
+[8.124639] (-) TimerEvent: {}
+[8.226346] (-) TimerEvent: {}
+[8.327849] (-) TimerEvent: {}
+[8.430806] (-) TimerEvent: {}
+[8.533621] (-) TimerEvent: {}
+[8.635959] (-) TimerEvent: {}
+[8.737860] (-) TimerEvent: {}
+[8.839620] (-) TimerEvent: {}
+[8.941409] (-) TimerEvent: {}
+[9.043624] (-) TimerEvent: {}
+[9.145451] (-) TimerEvent: {}
+[9.247219] (-) TimerEvent: {}
+[9.349409] (-) TimerEvent: {}
+[9.451405] (-) TimerEvent: {}
+[9.553382] (-) TimerEvent: {}
+[9.655418] (-) TimerEvent: {}
+[9.757265] (-) TimerEvent: {}
+[9.858856] (-) TimerEvent: {}
+[9.960502] (-) TimerEvent: {}
+[10.005832] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[10.020724] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[10.060764] (-) TimerEvent: {}
+[10.163404] (-) TimerEvent: {}
+[10.221270] (rplidar_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.263658] (-) TimerEvent: {}
+[10.296648] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[10.361356] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[10.363856] (-) TimerEvent: {}
+[10.448984] (rplidar_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[10.464187] (-) TimerEvent: {}
+[10.477675] (rplidar_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/hussein/Documents/kal_ws/build/rplidar_ros\n'}
+[10.564088] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[10.565830] (-) TimerEvent: {}
+[10.630802] (diffdrive_arduino) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[10.666059] (-) TimerEvent: {}
+[10.695791] (diffdrive_arduino) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.753752] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_composition_node\x1b[0m\n'}
+[10.766510] (-) TimerEvent: {}
+[10.868588] (-) TimerEvent: {}
+[10.970502] (-) TimerEvent: {}
+[11.072501] (-) TimerEvent: {}
+[11.111051] (rplidar_ros) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition_node.dir/src/rplidar_node.cpp.o\x1b[0m\n'}
+[11.172683] (-) TimerEvent: {}
+[11.274897] (-) TimerEvent: {}
+[11.377605] (-) TimerEvent: {}
+[11.480112] (-) TimerEvent: {}
+[11.582270] (-) TimerEvent: {}
+[11.684470] (-) TimerEvent: {}
+[11.788086] (-) TimerEvent: {}
+[11.909771] (-) TimerEvent: {}
+[12.011495] (-) TimerEvent: {}
+[12.113851] (-) TimerEvent: {}
+[12.215243] (-) TimerEvent: {}
+[12.317800] (-) TimerEvent: {}
+[12.430666] (-) TimerEvent: {}
+[12.532646] (-) TimerEvent: {}
+[12.635213] (-) TimerEvent: {}
+[12.738099] (-) TimerEvent: {}
+[12.841673] (-) TimerEvent: {}
+[12.945421] (-) TimerEvent: {}
+[13.049950] (-) TimerEvent: {}
+[13.153586] (-) TimerEvent: {}
+[13.156998] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.7 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[13.253718] (-) TimerEvent: {}
+[13.355424] (-) TimerEvent: {}
+[13.456945] (-) TimerEvent: {}
+[13.558891] (-) TimerEvent: {}
+[13.661039] (-) TimerEvent: {}
+[13.763372] (-) TimerEvent: {}
+[13.864986] (-) TimerEvent: {}
+[13.970066] (-) TimerEvent: {}
+[14.073565] (-) TimerEvent: {}
+[14.083725] (diffdrive_arduino) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.173961] (-) TimerEvent: {}
+[14.276158] (-) TimerEvent: {}
+[14.378077] (-) TimerEvent: {}
+[14.480120] (-) TimerEvent: {}
+[14.582371] (-) TimerEvent: {}
+[14.636547] (diffdrive_arduino) StdoutLine: {'line': b'-- Generating done\n'}
+[14.661906] (diffdrive_arduino) StdoutLine: {'line': b'-- Build files have been written to: /home/hussein/Documents/kal_ws/build/diffdrive_arduino\n'}
+[14.682821] (-) TimerEvent: {}
+[14.785499] (-) TimerEvent: {}
+[14.886912] (-) TimerEvent: {}
+[14.905228] (diffdrive_arduino) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target diffdrive_arduino\x1b[0m\n'}
+[14.987155] (-) TimerEvent: {}
+[15.088890] (-) TimerEvent: {}
+[15.117121] (diffdrive_arduino) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o\x1b[0m\n'}
+[15.189130] (-) TimerEvent: {}
+[15.291674] (-) TimerEvent: {}
+[15.393539] (-) TimerEvent: {}
+[15.465160] (serial) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[15.493758] (-) TimerEvent: {}
+[15.537682] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/src/rplidar_node.cpp:36\x1b[m\x1b[K:\n'}
+[15.538704] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/include/rplidar_node.hpp:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"M_PI" redefined\n'}
+[15.539499] (rplidar_ros) StderrLine: {'line': b'   50 | #define M_PI 3.1415926535897932384626433832795\n'}
+[15.540677] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[15.542701] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[15.543516] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[15.544171] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[15.544765] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[15.545358] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[15.545953] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[15.546643] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[15.547300] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[15.547933] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[15.548549] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[15.550441] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[15.551187] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[15.553280] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[15.555606] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/include/rplidar_node.hpp:34\x1b[m\x1b[K,\n'}
+[15.557093] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/src/rplidar_node.cpp:36\x1b[m\x1b[K:\n'}
+[15.559244] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/math.h:1151:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[15.560787] (rplidar_ros) StderrLine: {'line': b' 1151 | # define M_PI           3.14159265358979323846  /* pi */\n'}
+[15.563645] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[15.593984] (-) TimerEvent: {}
+[15.695473] (-) TimerEvent: {}
+[15.748647] (serial) StdoutLine: {'line': b'[ 64%] Built target gtest_main\n'}
+[15.795647] (-) TimerEvent: {}
+[15.897100] (-) TimerEvent: {}
+[15.998283] (-) TimerEvent: {}
+[16.100032] (-) TimerEvent: {}
+[16.201743] (-) TimerEvent: {}
+[16.304096] (-) TimerEvent: {}
+[16.405829] (-) TimerEvent: {}
+[16.507499] (-) TimerEvent: {}
+[16.610571] (-) TimerEvent: {}
+[16.712203] (-) TimerEvent: {}
+[16.814034] (-) TimerEvent: {}
+[16.917952] (-) TimerEvent: {}
+[17.020376] (-) TimerEvent: {}
+[17.121493] (-) TimerEvent: {}
+[17.222597] (-) TimerEvent: {}
+[17.324306] (-) TimerEvent: {}
+[17.426109] (-) TimerEvent: {}
+[17.527699] (-) TimerEvent: {}
+[17.629155] (-) TimerEvent: {}
+[17.731801] (-) TimerEvent: {}
+[17.833395] (-) TimerEvent: {}
+[17.934724] (-) TimerEvent: {}
+[18.036351] (-) TimerEvent: {}
+[18.137338] (-) TimerEvent: {}
+[18.238299] (-) TimerEvent: {}
+[18.339331] (-) TimerEvent: {}
+[18.440364] (-) TimerEvent: {}
+[18.541572] (-) TimerEvent: {}
+[18.642985] (-) TimerEvent: {}
+[18.744127] (-) TimerEvent: {}
+[18.845534] (-) TimerEvent: {}
+[18.946824] (-) TimerEvent: {}
+[19.048053] (-) TimerEvent: {}
+[19.149410] (-) TimerEvent: {}
+[19.251698] (-) TimerEvent: {}
+[19.352815] (-) TimerEvent: {}
+[19.454077] (-) TimerEvent: {}
+[19.555482] (-) TimerEvent: {}
+[19.657132] (-) TimerEvent: {}
+[19.759055] (-) TimerEvent: {}
+[19.861137] (-) TimerEvent: {}
+[19.963169] (-) TimerEvent: {}
+[20.067157] (-) TimerEvent: {}
+[20.171415] (-) TimerEvent: {}
+[20.273167] (-) TimerEvent: {}
+[20.375340] (-) TimerEvent: {}
+[20.477602] (-) TimerEvent: {}
+[20.579915] (-) TimerEvent: {}
+[20.681783] (-) TimerEvent: {}
+[20.784204] (-) TimerEvent: {}
+[20.886191] (-) TimerEvent: {}
+[20.988414] (-) TimerEvent: {}
+[21.091409] (-) TimerEvent: {}
+[21.193321] (-) TimerEvent: {}
+[21.295306] (-) TimerEvent: {}
+[21.397014] (-) TimerEvent: {}
+[21.498928] (-) TimerEvent: {}
+[21.601441] (-) TimerEvent: {}
+[21.702688] (-) TimerEvent: {}
+[21.803865] (-) TimerEvent: {}
+[21.905232] (-) TimerEvent: {}
+[22.006787] (-) TimerEvent: {}
+[22.108033] (-) TimerEvent: {}
+[22.209130] (-) TimerEvent: {}
+[22.311148] (-) TimerEvent: {}
+[22.412215] (-) TimerEvent: {}
+[22.513570] (-) TimerEvent: {}
+[22.614751] (-) TimerEvent: {}
+[22.716142] (-) TimerEvent: {}
+[22.817352] (-) TimerEvent: {}
+[22.919382] (-) TimerEvent: {}
+[23.022470] (-) TimerEvent: {}
+[23.124392] (-) TimerEvent: {}
+[23.226189] (-) TimerEvent: {}
+[23.328623] (-) TimerEvent: {}
+[23.430685] (-) TimerEvent: {}
+[23.533742] (-) TimerEvent: {}
+[23.638378] (-) TimerEvent: {}
+[23.739572] (-) TimerEvent: {}
+[23.841378] (-) TimerEvent: {}
+[23.944026] (-) TimerEvent: {}
+[24.045783] (-) TimerEvent: {}
+[24.147655] (-) TimerEvent: {}
+[24.249762] (-) TimerEvent: {}
+[24.352397] (-) TimerEvent: {}
+[24.454167] (-) TimerEvent: {}
+[24.555882] (-) TimerEvent: {}
+[24.657674] (-) TimerEvent: {}
+[24.759526] (-) TimerEvent: {}
+[24.861260] (-) TimerEvent: {}
+[24.962340] (-) TimerEvent: {}
+[25.064197] (-) TimerEvent: {}
+[25.165982] (-) TimerEvent: {}
+[25.267370] (-) TimerEvent: {}
+[25.369206] (-) TimerEvent: {}
+[25.471104] (-) TimerEvent: {}
+[25.573178] (-) TimerEvent: {}
+[25.674205] (-) TimerEvent: {}
+[25.775246] (-) TimerEvent: {}
+[25.877010] (-) TimerEvent: {}
+[25.979076] (-) TimerEvent: {}
+[26.080084] (-) TimerEvent: {}
+[26.182022] (-) TimerEvent: {}
+[26.284125] (-) TimerEvent: {}
+[26.386078] (-) TimerEvent: {}
+[26.487878] (-) TimerEvent: {}
+[26.589527] (-) TimerEvent: {}
+[26.691536] (-) TimerEvent: {}
+[26.793334] (-) TimerEvent: {}
+[26.895288] (-) TimerEvent: {}
+[26.997341] (-) TimerEvent: {}
+[27.101614] (-) TimerEvent: {}
+[27.205982] (-) TimerEvent: {}
+[27.311208] (-) TimerEvent: {}
+[27.412939] (-) TimerEvent: {}
+[27.514827] (-) TimerEvent: {}
+[27.616602] (-) TimerEvent: {}
+[27.718521] (-) TimerEvent: {}
+[27.820358] (-) TimerEvent: {}
+[27.922453] (-) TimerEvent: {}
+[28.024286] (-) TimerEvent: {}
+[28.126078] (-) TimerEvent: {}
+[28.227944] (-) TimerEvent: {}
+[28.330033] (-) TimerEvent: {}
+[28.433631] (-) TimerEvent: {}
+[28.536593] (-) TimerEvent: {}
+[28.637713] (-) TimerEvent: {}
+[28.739616] (-) TimerEvent: {}
+[28.841295] (-) TimerEvent: {}
+[28.943088] (-) TimerEvent: {}
+[29.045221] (-) TimerEvent: {}
+[29.147207] (-) TimerEvent: {}
+[29.248616] (-) TimerEvent: {}
+[29.350072] (-) TimerEvent: {}
+[29.451572] (-) TimerEvent: {}
+[29.553080] (-) TimerEvent: {}
+[29.654578] (-) TimerEvent: {}
+[29.755639] (-) TimerEvent: {}
+[29.856605] (-) TimerEvent: {}
+[29.957619] (-) TimerEvent: {}
+[29.987348] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[29.988167] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/include/rplidar_node.hpp:41\x1b[m\x1b[K,\n'}
+[29.988934] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/src/rplidar_node.cpp:36\x1b[m\x1b[K:\n'}
+[29.990713] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[29.991495] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[29.992113] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[29.992910] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[29.993644] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/include/rplidar_node.hpp:41\x1b[m\x1b[K,\n'}
+[29.994277] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/src/rplidar_node.cpp:36\x1b[m\x1b[K:\n'}
+[29.995036] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.000925] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[30.002296] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[30.057834] (-) TimerEvent: {}
+[30.159644] (-) TimerEvent: {}
+[30.261353] (-) TimerEvent: {}
+[30.363144] (-) TimerEvent: {}
+[30.465102] (-) TimerEvent: {}
+[30.525160] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/src/rplidar_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rplidar_ros::rplidar_node::stop_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[30.525963] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/src/rplidar_node.cpp:248:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.526685] (rplidar_ros) StderrLine: {'line': b'  248 | void rplidar_node::stop_motor(\x1b[01;35m\x1b[Kconst EmptyRequest req\x1b[m\x1b[K, EmptyResponse res)\n'}
+[30.527474] (rplidar_ros) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[30.528683] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/src/rplidar_node.cpp:248:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kres\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.529478] (rplidar_ros) StderrLine: {'line': b'  248 | void rplidar_node::stop_motor(const EmptyRequest req, \x1b[01;35m\x1b[KEmptyResponse res\x1b[m\x1b[K)\n'}
+[30.532092] (rplidar_ros) StderrLine: {'line': b'      |                                                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[30.533370] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/src/rplidar_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rplidar_ros::rplidar_node::start_motor({anonymous}::EmptyRequest, {anonymous}::EmptyResponse)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[30.534647] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/src/rplidar_node.cpp:259:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.536863] (rplidar_ros) StderrLine: {'line': b'  259 | void rplidar_node::start_motor(\x1b[01;35m\x1b[Kconst EmptyRequest req\x1b[m\x1b[K, EmptyResponse res)\n'}
+[30.537955] (rplidar_ros) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[30.539194] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/src/rplidar_node.cpp:259:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kres\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.540148] (rplidar_ros) StderrLine: {'line': b'  259 | void rplidar_node::start_motor(const EmptyRequest req, \x1b[01;35m\x1b[KEmptyResponse res\x1b[m\x1b[K)\n'}
+[30.541032] (rplidar_ros) StderrLine: {'line': b'      |                                                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[30.565578] (-) TimerEvent: {}
+[30.578079] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/src/rplidar_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rplidar_ros::rplidar_node::publish_loop()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[30.579294] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/src/rplidar_node.cpp:362:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.580409] (rplidar_ros) StderrLine: {'line': b'  362 |           for (j = 0; \x1b[01;35m\x1b[Kj < m_angle_compensate_multiple\x1b[m\x1b[K; j++) {\n'}
+[30.581571] (rplidar_ros) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.583658] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/src/rplidar_node.cpp:383:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.586210] (rplidar_ros) StderrLine: {'line': b'  383 |       for (size_t x = start_node, y = 0; \x1b[01;35m\x1b[Kx < end_node\x1b[m\x1b[K; ++x, ++y) {\n'}
+[30.587425] (rplidar_ros) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[30.588939] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/src/rplidar_node.cpp:390:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kangle_min\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.590559] (rplidar_ros) StderrLine: {'line': b'  390 |     float \x1b[01;35m\x1b[Kangle_min\x1b[m\x1b[K = deg_2_rad(0.0f);\n'}
+[30.592155] (rplidar_ros) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[30.593834] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/src/rplidar_node.cpp:391:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kangle_max\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[30.602985] (rplidar_ros) StderrLine: {'line': b'  391 |     float \x1b[01;35m\x1b[Kangle_max\x1b[m\x1b[K = deg_2_rad(359.0f);\n'}
+[30.605924] (rplidar_ros) StderrLine: {'line': b'      |           \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[30.665802] (-) TimerEvent: {}
+[30.716284] (serial) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[30.766144] (-) TimerEvent: {}
+[30.868649] (-) TimerEvent: {}
+[30.970616] (-) TimerEvent: {}
+[31.071978] (-) TimerEvent: {}
+[31.133607] (serial) StdoutLine: {'line': b'[ 71%] Built target gtest\n'}
+[31.172196] (-) TimerEvent: {}
+[31.259321] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial-test-timer\x1b[0m\n'}
+[31.266360] (serial) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target serial-test\x1b[0m\n'}
+[31.272843] (-) TimerEvent: {}
+[31.362151] (serial) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o\x1b[0m\n'}
+[31.373109] (-) TimerEvent: {}
+[31.455260] (serial) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o\x1b[0m\n'}
+[31.473338] (-) TimerEvent: {}
+[31.574724] (-) TimerEvent: {}
+[31.676137] (-) TimerEvent: {}
+[31.777438] (-) TimerEvent: {}
+[31.878284] (-) TimerEvent: {}
+[31.980591] (-) TimerEvent: {}
+[32.082124] (-) TimerEvent: {}
+[32.183742] (-) TimerEvent: {}
+[32.285944] (-) TimerEvent: {}
+[32.387950] (-) TimerEvent: {}
+[32.489611] (-) TimerEvent: {}
+[32.591342] (-) TimerEvent: {}
+[32.692919] (-) TimerEvent: {}
+[32.793902] (-) TimerEvent: {}
+[32.895218] (-) TimerEvent: {}
+[32.996373] (-) TimerEvent: {}
+[33.097610] (-) TimerEvent: {}
+[33.198658] (-) TimerEvent: {}
+[33.299812] (-) TimerEvent: {}
+[33.400816] (-) TimerEvent: {}
+[33.501884] (-) TimerEvent: {}
+[33.603023] (-) TimerEvent: {}
+[33.704364] (-) TimerEvent: {}
+[33.805594] (-) TimerEvent: {}
+[33.906725] (-) TimerEvent: {}
+[34.008604] (-) TimerEvent: {}
+[34.111592] (-) TimerEvent: {}
+[34.212805] (-) TimerEvent: {}
+[34.313890] (-) TimerEvent: {}
+[34.415071] (-) TimerEvent: {}
+[34.516170] (-) TimerEvent: {}
+[34.617151] (-) TimerEvent: {}
+[34.718327] (-) TimerEvent: {}
+[34.819378] (-) TimerEvent: {}
+[34.920403] (-) TimerEvent: {}
+[35.021639] (-) TimerEvent: {}
+[35.122656] (-) TimerEvent: {}
+[35.223708] (-) TimerEvent: {}
+[35.324741] (-) TimerEvent: {}
+[35.426129] (-) TimerEvent: {}
+[35.527359] (-) TimerEvent: {}
+[35.628463] (-) TimerEvent: {}
+[35.729418] (-) TimerEvent: {}
+[35.830784] (-) TimerEvent: {}
+[35.931818] (-) TimerEvent: {}
+[36.033320] (-) TimerEvent: {}
+[36.135115] (-) TimerEvent: {}
+[36.236074] (-) TimerEvent: {}
+[36.337063] (-) TimerEvent: {}
+[36.438200] (-) TimerEvent: {}
+[36.539260] (-) TimerEvent: {}
+[36.640421] (-) TimerEvent: {}
+[36.742588] (-) TimerEvent: {}
+[36.843933] (-) TimerEvent: {}
+[36.945143] (-) TimerEvent: {}
+[37.046549] (-) TimerEvent: {}
+[37.524494] (-) TimerEvent: {}
+[37.627168] (-) TimerEvent: {}
+[37.729865] (-) TimerEvent: {}
+[37.835100] (-) TimerEvent: {}
+[37.938007] (-) TimerEvent: {}
+[38.041561] (-) TimerEvent: {}
+[38.145398] (-) TimerEvent: {}
+[38.247903] (-) TimerEvent: {}
+[38.350087] (-) TimerEvent: {}
+[38.452400] (-) TimerEvent: {}
+[38.556083] (-) TimerEvent: {}
+[38.659445] (-) TimerEvent: {}
+[38.763756] (-) TimerEvent: {}
+[38.868346] (-) TimerEvent: {}
+[38.971819] (-) TimerEvent: {}
+[39.074388] (-) TimerEvent: {}
+[39.177045] (-) TimerEvent: {}
+[39.280421] (-) TimerEvent: {}
+[39.386353] (-) TimerEvent: {}
+[39.488492] (-) TimerEvent: {}
+[39.591072] (-) TimerEvent: {}
+[39.693441] (-) TimerEvent: {}
+[39.795583] (-) TimerEvent: {}
+[39.897381] (-) TimerEvent: {}
+[40.000389] (-) TimerEvent: {}
+[40.102337] (-) TimerEvent: {}
+[40.203725] (-) TimerEvent: {}
+[40.305672] (-) TimerEvent: {}
+[40.407103] (-) TimerEvent: {}
+[40.508524] (-) TimerEvent: {}
+[40.610260] (-) TimerEvent: {}
+[40.711731] (-) TimerEvent: {}
+[40.812964] (-) TimerEvent: {}
+[40.914700] (-) TimerEvent: {}
+[41.016024] (-) TimerEvent: {}
+[41.117219] (-) TimerEvent: {}
+[41.218957] (-) TimerEvent: {}
+[41.320540] (-) TimerEvent: {}
+[41.422624] (-) TimerEvent: {}
+[41.524364] (-) TimerEvent: {}
+[41.626040] (-) TimerEvent: {}
+[41.727589] (-) TimerEvent: {}
+[41.830872] (-) TimerEvent: {}
+[41.933260] (-) TimerEvent: {}
+[42.034510] (-) TimerEvent: {}
+[42.136260] (-) TimerEvent: {}
+[42.237350] (-) TimerEvent: {}
+[42.279140] (serial) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/boost/bind.hpp:30\x1b[m\x1b[K,\n'}
+[42.280326] (serial) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/serial/tests/unix_serial_tests.cc:23\x1b[m\x1b[K:\n'}
+[42.281255] (serial) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/boost/bind.hpp:36:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.\x1b[m\x1b[K\xe2\x80\x99\n'}
+[42.282237] (serial) StderrLine: {'line': b'   36 | \x1b[01;36m\x1b[KBOOST_PRAGMA_MESSAGE\x1b[m\x1b[K(\n'}
+[42.283225] (serial) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[42.305281] (serial) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable serial-test-timer\x1b[0m\n'}
+[42.337549] (-) TimerEvent: {}
+[42.438876] (-) TimerEvent: {}
+[42.540714] (-) TimerEvent: {}
+[42.643594] (-) TimerEvent: {}
+[42.745649] (-) TimerEvent: {}
+[42.847978] (-) TimerEvent: {}
+[42.949744] (-) TimerEvent: {}
+[43.052512] (-) TimerEvent: {}
+[43.154601] (-) TimerEvent: {}
+[43.256288] (-) TimerEvent: {}
+[43.357526] (-) TimerEvent: {}
+[43.437644] (serial) StdoutLine: {'line': b'[ 92%] Built target serial-test-timer\n'}
+[43.457760] (-) TimerEvent: {}
+[43.559042] (-) TimerEvent: {}
+[43.660318] (-) TimerEvent: {}
+[43.762076] (-) TimerEvent: {}
+[43.806875] (diffdrive_arduino) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libdiffdrive_arduino.so\x1b[0m\n'}
+[43.862292] (-) TimerEvent: {}
+[43.947951] (serial) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable serial-test\x1b[0m\n'}
+[43.962826] (-) TimerEvent: {}
+[44.064767] (-) TimerEvent: {}
+[44.167701] (-) TimerEvent: {}
+[44.269049] (-) TimerEvent: {}
+[44.370027] (-) TimerEvent: {}
+[44.471085] (-) TimerEvent: {}
+[44.572207] (-) TimerEvent: {}
+[44.674290] (-) TimerEvent: {}
+[44.775769] (-) TimerEvent: {}
+[44.872428] (serial) StdoutLine: {'line': b'[100%] Built target serial-test\n'}
+[44.876019] (-) TimerEvent: {}
+[44.949642] (serial) CommandEnded: {'returncode': 0}
+[44.976236] (-) TimerEvent: {}
+[45.077336] (-) TimerEvent: {}
+[45.178707] (-) TimerEvent: {}
+[45.277229] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target diffdrive_arduino\n'}
+[45.279176] (-) TimerEvent: {}
+[45.288162] (serial) JobProgress: {'identifier': 'serial', 'progress': 'install'}
+[45.289420] (serial) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hussein/Documents/kal_ws/build/serial'], 'cwd': '/home/hussein/Documents/kal_ws/build/serial', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hussein'), ('SSH_CLIENT', '192.168.0.100 57920 22'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs/lib:/home/hussein/Documents/kal_ws/install/serial/lib:/home/hussein/Documents/kal_ws/install/rplidar_ros/lib:/home/hussein/Documents/kal_ws/install/diffdrive_arduino/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/hussein'), ('OLDPWD', '/home/hussein'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/hussein/Documents/kal_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hussein'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo:/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs:/home/hussein/Documents/kal_ws/install/serial:/home/hussein/Documents/kal_ws/install/rplidar_ros:/home/hussein/Documents/kal_ws/install/kal_package:/home/hussein/Documents/kal_ws/install/diffdrive_arduino:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('PWD', '/home/hussein/Documents/kal_ws/build/serial'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.100 57920 192.168.0.101 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs:/home/hussein/Documents/kal_ws/install/serial:/home/hussein/Documents/kal_ws/install/rplidar_ros:/home/hussein/Documents/kal_ws/install/kal_package:/home/hussein/Documents/kal_ws/install/diffdrive_arduino:/home/hussein/Documents/kal_ws/install/serial_motor_demo:/opt/ros/humble')]), 'shell': False}
+[45.338660] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[45.341985] (serial) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[45.343276] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/lib/libserial.a\n'}
+[45.344212] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/include/serial/serial.h\n'}
+[45.345755] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/include/serial/v8stdint.h\n'}
+[45.346576] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/environment/library_path.sh\n'}
+[45.347233] (serial) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/serial/share/serial/environment/library_path.dsv\n'}
+[45.348308] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial\n'}
+[45.349189] (serial) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial\n'}
+[45.354086] (serial) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/serial/share/serial/environment/ament_prefix_path.sh\n'}
+[45.355871] (serial) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/serial/share/serial/environment/ament_prefix_path.dsv\n'}
+[45.356929] (serial) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/serial/share/serial/environment/path.sh\n'}
+[45.358004] (serial) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/serial/share/serial/environment/path.dsv\n'}
+[45.362001] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/local_setup.bash\n'}
+[45.363978] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/local_setup.sh\n'}
+[45.365879] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/local_setup.zsh\n'}
+[45.367366] (serial) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/serial/share/serial/local_setup.dsv\n'}
+[45.369952] (serial) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/serial/share/serial/package.dsv\n'}
+[45.371086] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/ament_index/resource_index/packages/serial\n'}
+[45.372156] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[45.373149] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[45.374599] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/cmake/serialConfig.cmake\n'}
+[45.375550] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/cmake/serialConfig-version.cmake\n'}
+[45.376351] (serial) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/package.xml\n'}
+[45.379328] (-) TimerEvent: {}
+[45.386228] (serial) CommandEnded: {'returncode': 0}
+[45.479768] (-) TimerEvent: {}
+[45.581340] (-) TimerEvent: {}
+[45.682612] (-) TimerEvent: {}
+[45.783897] (-) TimerEvent: {}
+[45.840538] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'install'}
+[45.842114] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hussein/Documents/kal_ws/build/diffdrive_arduino'], 'cwd': '/home/hussein/Documents/kal_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hussein'), ('SSH_CLIENT', '192.168.0.100 57920 22'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs/lib:/home/hussein/Documents/kal_ws/install/serial/lib:/home/hussein/Documents/kal_ws/install/rplidar_ros/lib:/home/hussein/Documents/kal_ws/install/diffdrive_arduino/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/hussein'), ('OLDPWD', '/home/hussein'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/hussein/Documents/kal_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hussein'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo:/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs:/home/hussein/Documents/kal_ws/install/serial:/home/hussein/Documents/kal_ws/install/rplidar_ros:/home/hussein/Documents/kal_ws/install/kal_package:/home/hussein/Documents/kal_ws/install/diffdrive_arduino:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('PWD', '/home/hussein/Documents/kal_ws/build/diffdrive_arduino'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.100 57920 192.168.0.101 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs:/home/hussein/Documents/kal_ws/install/serial:/home/hussein/Documents/kal_ws/install/rplidar_ros:/home/hussein/Documents/kal_ws/install/kal_package:/home/hussein/Documents/kal_ws/install/diffdrive_arduino:/home/hussein/Documents/kal_ws/install/serial_motor_demo:/opt/ros/humble')]), 'shell': False}
+[45.884108] (-) TimerEvent: {}
+[45.899342] (diffdrive_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[45.902205] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/diffdrive_arduino.xml\n'}
+[45.903099] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/include/diffdrive_arduino\n'}
+[45.904070] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino\n'}
+[45.905122] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/diffbot_system.hpp\n'}
+[45.905839] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/arduino_comms.hpp\n'}
+[45.908230] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/visibility_control.h\n'}
+[45.909050] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/wheel.hpp\n'}
+[45.910995] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch\n'}
+[45.911784] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/view_robot.launch.py\n'}
+[45.912719] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control\n'}
+[45.913511] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control/diffbot.ros2_control.xacro\n'}
+[45.914197] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf\n'}
+[45.915953] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.materials.xacro\n'}
+[45.918505] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.urdf.xacro\n'}
+[45.919473] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot_description.urdf.xacro\n'}
+[45.920557] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz\n'}
+[45.921183] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot.rviz\n'}
+[45.921849] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot_view.rviz\n'}
+[45.922985] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch\n'}
+[45.923672] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/diffbot.launch.py\n'}
+[45.924270] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/config\n'}
+[45.925038] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/config/diffbot_controllers.yaml\n'}
+[45.925999] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so\n'}
+[45.936612] (diffdrive_arduino) StdoutLine: {'line': b'-- Set runtime path of "/home/hussein/Documents/kal_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so" to ""\n'}
+[45.937949] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh\n'}
+[45.940149] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv\n'}
+[45.941127] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino\n'}
+[45.942818] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino\n'}
+[45.944907] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh\n'}
+[45.947462] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv\n'}
+[45.950120] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh\n'}
+[45.952101] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv\n'}
+[45.954868] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash\n'}
+[45.956071] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh\n'}
+[45.957251] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh\n'}
+[45.958216] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv\n'}
+[45.959549] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv\n'}
+[45.962218] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino\n'}
+[45.963327] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino\n'}
+[45.967437] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake\n'}
+[45.968678] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport-noconfig.cmake\n'}
+[45.970973] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[45.973049] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[45.973912] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake\n'}
+[45.974713] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake\n'}
+[45.975529] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml\n'}
+[45.988292] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[45.991460] (-) TimerEvent: {}
+[46.093819] (-) TimerEvent: {}
+[46.195609] (-) TimerEvent: {}
+[46.297177] (-) TimerEvent: {}
+[46.399541] (-) TimerEvent: {}
+[46.502718] (-) TimerEvent: {}
+[46.608258] (-) TimerEvent: {}
+[46.712197] (-) TimerEvent: {}
+[46.814717] (-) TimerEvent: {}
+[46.916780] (-) TimerEvent: {}
+[47.018694] (-) TimerEvent: {}
+[47.120173] (-) TimerEvent: {}
+[47.226061] (-) TimerEvent: {}
+[47.244586] (serial) JobEnded: {'identifier': 'serial', 'rc': 0}
+[47.326327] (-) TimerEvent: {}
+[47.427479] (-) TimerEvent: {}
+[47.529088] (-) TimerEvent: {}
+[47.631522] (-) TimerEvent: {}
+[47.732928] (-) TimerEvent: {}
+[47.833942] (-) TimerEvent: {}
+[47.935587] (-) TimerEvent: {}
+[47.985939] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 0}
+[48.035795] (-) TimerEvent: {}
+[48.136546] (-) TimerEvent: {}
+[48.237263] (-) TimerEvent: {}
+[48.338048] (-) TimerEvent: {}
+[48.438825] (-) TimerEvent: {}
+[48.539571] (-) TimerEvent: {}
+[48.640365] (-) TimerEvent: {}
+[48.741187] (-) TimerEvent: {}
+[48.842052] (-) TimerEvent: {}
+[48.942891] (-) TimerEvent: {}
+[49.043642] (-) TimerEvent: {}
+[49.144392] (-) TimerEvent: {}
+[49.245214] (-) TimerEvent: {}
+[49.346021] (-) TimerEvent: {}
+[49.446799] (-) TimerEvent: {}
+[49.547577] (-) TimerEvent: {}
+[49.648379] (-) TimerEvent: {}
+[49.749134] (-) TimerEvent: {}
+[49.849981] (-) TimerEvent: {}
+[49.950805] (-) TimerEvent: {}
+[50.051568] (-) TimerEvent: {}
+[50.152362] (-) TimerEvent: {}
+[50.253113] (-) TimerEvent: {}
+[50.353922] (-) TimerEvent: {}
+[50.454674] (-) TimerEvent: {}
+[50.555474] (-) TimerEvent: {}
+[50.656414] (-) TimerEvent: {}
+[50.757281] (-) TimerEvent: {}
+[50.858057] (-) TimerEvent: {}
+[50.958837] (-) TimerEvent: {}
+[51.059585] (-) TimerEvent: {}
+[51.160324] (-) TimerEvent: {}
+[51.261056] (-) TimerEvent: {}
+[51.361880] (-) TimerEvent: {}
+[51.462649] (-) TimerEvent: {}
+[51.563383] (-) TimerEvent: {}
+[51.664099] (-) TimerEvent: {}
+[51.764802] (-) TimerEvent: {}
+[51.865787] (-) TimerEvent: {}
+[51.967630] (-) TimerEvent: {}
+[52.068412] (-) TimerEvent: {}
+[52.169856] (-) TimerEvent: {}
+[52.258739] (rplidar_ros) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking CXX shared library librplidar_composition_node.so\x1b[0m\n'}
+[52.270030] (-) TimerEvent: {}
+[52.370966] (-) TimerEvent: {}
+[52.472015] (-) TimerEvent: {}
+[52.572970] (-) TimerEvent: {}
+[52.674115] (-) TimerEvent: {}
+[52.775337] (-) TimerEvent: {}
+[52.876246] (-) TimerEvent: {}
+[52.977206] (-) TimerEvent: {}
+[53.078071] (-) TimerEvent: {}
+[53.178960] (-) TimerEvent: {}
+[53.279744] (-) TimerEvent: {}
+[53.380468] (-) TimerEvent: {}
+[53.481196] (-) TimerEvent: {}
+[53.582139] (-) TimerEvent: {}
+[53.683080] (-) TimerEvent: {}
+[53.783885] (-) TimerEvent: {}
+[53.789914] (rplidar_ros) StdoutLine: {'line': b'[ 77%] Built target rplidar_composition_node\n'}
+[53.850044] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_composition\x1b[0m\n'}
+[53.884074] (-) TimerEvent: {}
+[53.956681] (rplidar_ros) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/standalone_rplidar.cpp.o\x1b[0m\n'}
+[53.984251] (-) TimerEvent: {}
+[54.085087] (-) TimerEvent: {}
+[54.185799] (-) TimerEvent: {}
+[54.286484] (-) TimerEvent: {}
+[54.387176] (-) TimerEvent: {}
+[54.487869] (-) TimerEvent: {}
+[54.588570] (-) TimerEvent: {}
+[54.689311] (-) TimerEvent: {}
+[54.790193] (-) TimerEvent: {}
+[54.890957] (-) TimerEvent: {}
+[54.991950] (-) TimerEvent: {}
+[55.092690] (-) TimerEvent: {}
+[55.193415] (-) TimerEvent: {}
+[55.294084] (-) TimerEvent: {}
+[55.394825] (-) TimerEvent: {}
+[55.495551] (-) TimerEvent: {}
+[55.596253] (-) TimerEvent: {}
+[55.696895] (-) TimerEvent: {}
+[55.797682] (-) TimerEvent: {}
+[55.898107] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[55.899706] (-) TimerEvent: {}
+[55.900863] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/include/rplidar_node.hpp:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K"M_PI" redefined\n'}
+[55.901615] (rplidar_ros) StderrLine: {'line': b'   50 | #define M_PI 3.1415926535897932384626433832795\n'}
+[55.902340] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[55.902936] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cmath:45\x1b[m\x1b[K,\n'}
+[55.903354] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:18\x1b[m\x1b[K,\n'}
+[55.903741] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:24\x1b[m\x1b[K,\n'}
+[55.904121] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[55.904498] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[55.904859] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[55.905340] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[55.905770] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[55.906172] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[55.906612] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[55.907957] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[55.908549] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[55.908967] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[55.909451] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/include/rplidar_node.hpp:34\x1b[m\x1b[K,\n'}
+[55.910080] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[55.910615] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/math.h:1151:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthis is the location of the previous definition\n'}
+[55.911155] (rplidar_ros) StderrLine: {'line': b' 1151 | # define M_PI           3.14159265358979323846  /* pi */\n'}
+[55.911604] (rplidar_ros) StderrLine: {'line': b'      | \n'}
+[55.999872] (-) TimerEvent: {}
+[56.100790] (-) TimerEvent: {}
+[56.201662] (-) TimerEvent: {}
+[56.302675] (-) TimerEvent: {}
+[56.403430] (-) TimerEvent: {}
+[56.504204] (-) TimerEvent: {}
+[56.604969] (-) TimerEvent: {}
+[56.705767] (-) TimerEvent: {}
+[56.806552] (-) TimerEvent: {}
+[56.907298] (-) TimerEvent: {}
+[57.008060] (-) TimerEvent: {}
+[57.108936] (-) TimerEvent: {}
+[57.210088] (-) TimerEvent: {}
+[57.310966] (-) TimerEvent: {}
+[57.411861] (-) TimerEvent: {}
+[57.512624] (-) TimerEvent: {}
+[57.613413] (-) TimerEvent: {}
+[57.714176] (-) TimerEvent: {}
+[57.815120] (-) TimerEvent: {}
+[57.915943] (-) TimerEvent: {}
+[58.016794] (-) TimerEvent: {}
+[58.117568] (-) TimerEvent: {}
+[58.218337] (-) TimerEvent: {}
+[58.319130] (-) TimerEvent: {}
+[58.419894] (-) TimerEvent: {}
+[58.520731] (-) TimerEvent: {}
+[58.621568] (-) TimerEvent: {}
+[58.722337] (-) TimerEvent: {}
+[58.823114] (-) TimerEvent: {}
+[58.923887] (-) TimerEvent: {}
+[59.024836] (-) TimerEvent: {}
+[59.125752] (-) TimerEvent: {}
+[59.226566] (-) TimerEvent: {}
+[59.327375] (-) TimerEvent: {}
+[59.428142] (-) TimerEvent: {}
+[59.529048] (-) TimerEvent: {}
+[59.629909] (-) TimerEvent: {}
+[59.730690] (-) TimerEvent: {}
+[59.831471] (-) TimerEvent: {}
+[59.932226] (-) TimerEvent: {}
+[60.033146] (-) TimerEvent: {}
+[60.133959] (-) TimerEvent: {}
+[60.234788] (-) TimerEvent: {}
+[60.335776] (-) TimerEvent: {}
+[60.436614] (-) TimerEvent: {}
+[60.537325] (-) TimerEvent: {}
+[60.638087] (-) TimerEvent: {}
+[60.738905] (-) TimerEvent: {}
+[60.839702] (-) TimerEvent: {}
+[60.940609] (-) TimerEvent: {}
+[61.041359] (-) TimerEvent: {}
+[61.142219] (-) TimerEvent: {}
+[61.243002] (-) TimerEvent: {}
+[61.343772] (-) TimerEvent: {}
+[61.444537] (-) TimerEvent: {}
+[61.545334] (-) TimerEvent: {}
+[61.646089] (-) TimerEvent: {}
+[61.746889] (-) TimerEvent: {}
+[61.847661] (-) TimerEvent: {}
+[61.948412] (-) TimerEvent: {}
+[62.049215] (-) TimerEvent: {}
+[62.150079] (-) TimerEvent: {}
+[62.251017] (-) TimerEvent: {}
+[62.351820] (-) TimerEvent: {}
+[62.452603] (-) TimerEvent: {}
+[62.553385] (-) TimerEvent: {}
+[62.654183] (-) TimerEvent: {}
+[62.754996] (-) TimerEvent: {}
+[62.855746] (-) TimerEvent: {}
+[62.956504] (-) TimerEvent: {}
+[63.057343] (-) TimerEvent: {}
+[63.158153] (-) TimerEvent: {}
+[63.259002] (-) TimerEvent: {}
+[63.359748] (-) TimerEvent: {}
+[63.460538] (-) TimerEvent: {}
+[63.561360] (-) TimerEvent: {}
+[63.662198] (-) TimerEvent: {}
+[63.762986] (-) TimerEvent: {}
+[63.863776] (-) TimerEvent: {}
+[63.964613] (-) TimerEvent: {}
+[64.065500] (-) TimerEvent: {}
+[64.166505] (-) TimerEvent: {}
+[64.267374] (-) TimerEvent: {}
+[64.368159] (-) TimerEvent: {}
+[64.468922] (-) TimerEvent: {}
+[64.569840] (-) TimerEvent: {}
+[64.670632] (-) TimerEvent: {}
+[64.771383] (-) TimerEvent: {}
+[64.872242] (-) TimerEvent: {}
+[64.973000] (-) TimerEvent: {}
+[65.073784] (-) TimerEvent: {}
+[65.174655] (-) TimerEvent: {}
+[65.184091] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/./sdk/include/rplidar.h:39\x1b[m\x1b[K,\n'}
+[65.184732] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/include/rplidar_node.hpp:41\x1b[m\x1b[K,\n'}
+[65.185172] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[65.185932] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/./sdk/include/rplidar_protocol.h:59:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[65.186465] (rplidar_ros) StderrLine: {'line': b'   59 |     _u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[65.186927] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[65.187313] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/./sdk/include/rplidar.h:40\x1b[m\x1b[K,\n'}
+[65.187755] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/include/rplidar_node.hpp:41\x1b[m\x1b[K,\n'}
+[65.188165] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[65.188535] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/./sdk/include/rplidar_cmd.h:260:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[65.188943] (rplidar_ros) StderrLine: {'line': b'  260 |     _u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[65.189417] (rplidar_ros) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[65.274848] (-) TimerEvent: {}
+[65.375643] (-) TimerEvent: {}
+[65.476401] (-) TimerEvent: {}
+[65.577217] (-) TimerEvent: {}
+[65.677971] (-) TimerEvent: {}
+[65.778742] (-) TimerEvent: {}
+[65.879506] (-) TimerEvent: {}
+[65.980295] (-) TimerEvent: {}
+[66.081117] (-) TimerEvent: {}
+[66.181882] (-) TimerEvent: {}
+[66.282702] (-) TimerEvent: {}
+[66.383467] (-) TimerEvent: {}
+[66.484281] (-) TimerEvent: {}
+[66.585075] (-) TimerEvent: {}
+[66.685848] (-) TimerEvent: {}
+[66.786604] (-) TimerEvent: {}
+[66.887371] (-) TimerEvent: {}
+[66.988151] (-) TimerEvent: {}
+[67.036660] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/src/standalone_rplidar.cpp:16\x1b[m\x1b[K:\n'}
+[67.037488] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hussein/Documents/kal_ws/src/rplidar_ros2/include/rplidar_node.hpp:76:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat rplidar_ros::getAngle(const rplidar_response_measurement_node_hq_t&)\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function\x07-Wunused-function\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[67.038461] (rplidar_ros) StderrLine: {'line': b'   76 | static float \x1b[01;35m\x1b[KgetAngle\x1b[m\x1b[K(const rplidar_response_measurement_node_hq_t & node)\n'}
+[67.039582] (rplidar_ros) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[67.088353] (-) TimerEvent: {}
+[67.189111] (-) TimerEvent: {}
+[67.290062] (-) TimerEvent: {}
+[67.390869] (-) TimerEvent: {}
+[67.491696] (-) TimerEvent: {}
+[67.581232] (rplidar_ros) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rplidar_composition\x1b[0m\n'}
+[67.591908] (-) TimerEvent: {}
+[67.692736] (-) TimerEvent: {}
+[67.793669] (-) TimerEvent: {}
+[67.894601] (-) TimerEvent: {}
+[67.995625] (-) TimerEvent: {}
+[68.096568] (-) TimerEvent: {}
+[68.197609] (-) TimerEvent: {}
+[68.300003] (-) TimerEvent: {}
+[68.401079] (-) TimerEvent: {}
+[68.501903] (-) TimerEvent: {}
+[68.595232] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[68.602069] (-) TimerEvent: {}
+[68.645197] (rplidar_ros) CommandEnded: {'returncode': 0}
+[68.702283] (-) TimerEvent: {}
+[68.803916] (-) TimerEvent: {}
+[68.904655] (-) TimerEvent: {}
+[68.912238] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[68.916393] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hussein/Documents/kal_ws/build/rplidar_ros'], 'cwd': '/home/hussein/Documents/kal_ws/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hussein'), ('SSH_CLIENT', '192.168.0.100 57920 22'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs/lib:/home/hussein/Documents/kal_ws/install/serial/lib:/home/hussein/Documents/kal_ws/install/rplidar_ros/lib:/home/hussein/Documents/kal_ws/install/diffdrive_arduino/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/hussein'), ('OLDPWD', '/home/hussein'), ('SSH_TTY', '/dev/pts/3'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/hussein/Documents/kal_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hussein'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo:/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs:/home/hussein/Documents/kal_ws/install/serial:/home/hussein/Documents/kal_ws/install/rplidar_ros:/home/hussein/Documents/kal_ws/install/kal_package:/home/hussein/Documents/kal_ws/install/diffdrive_arduino:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('PWD', '/home/hussein/Documents/kal_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.100 57920 192.168.0.101 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo/lib/python3.10/site-packages:/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs:/home/hussein/Documents/kal_ws/install/serial:/home/hussein/Documents/kal_ws/install/rplidar_ros:/home/hussein/Documents/kal_ws/install/kal_package:/home/hussein/Documents/kal_ws/install/diffdrive_arduino:/home/hussein/Documents/kal_ws/install/serial_motor_demo:/opt/ros/humble')]), 'shell': False}
+[68.955514] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[68.956871] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[68.960578] (rplidar_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/hussein/Documents/kal_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition" to ""\n'}
+[68.961320] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch\n'}
+[68.962592] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3.launch.py\n'}
+[68.963212] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1.launch.py\n'}
+[68.963799] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar.launch.py\n'}
+[68.964340] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp.launch.py\n'}
+[68.964839] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/test_rplidar_a3.launch.py\n'}
+[68.965438] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3.launch.py\n'}
+[68.965991] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp.launch.py\n'}
+[68.966362] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1.launch.py\n'}
+[68.966986] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar.launch.py\n'}
+[68.967395] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/rviz\n'}
+[68.967727] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar.rviz\n'}
+[68.969191] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/lib/librplidar_composition_node.so\n'}
+[68.995837] (rplidar_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/hussein/Documents/kal_ws/install/rplidar_ros/lib/librplidar_composition_node.so" to ""\n'}
+[68.996598] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/include\n'}
+[68.997505] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/include/visibility.h\n'}
+[68.998079] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/include/rplidar_node.hpp\n'}
+[68.999270] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[69.000901] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[69.002467] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[69.004218] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[69.004914] (-) TimerEvent: {}
+[69.005782] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[69.007742] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[69.008929] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[69.010718] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[69.011381] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[69.011887] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[69.012431] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[69.013483] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[69.014966] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[69.016076] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/ament_index/resource_index/rclcpp_components/rplidar_ros\n'}
+[69.016787] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[69.017311] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[69.017779] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[69.018360] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[69.019200] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/hussein/Documents/kal_ws/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[69.024938] (rplidar_ros) CommandEnded: {'returncode': 0}
+[69.105066] (-) TimerEvent: {}
+[69.209180] (-) TimerEvent: {}
+[69.310920] (-) TimerEvent: {}
+[69.414260] (-) TimerEvent: {}
+[69.515381] (-) TimerEvent: {}
+[69.616096] (-) TimerEvent: {}
+[69.716783] (-) TimerEvent: {}
+[69.818102] (-) TimerEvent: {}
+[69.919295] (-) TimerEvent: {}
+[70.020580] (-) TimerEvent: {}
+[70.121838] (-) TimerEvent: {}
+[70.172933] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[70.177399] (-) EventReactorShutdown: {}

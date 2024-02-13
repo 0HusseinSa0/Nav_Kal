@@ -1,0 +1,26 @@
+-- Install configuration: ""
+-- Up-to-date: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/src
+-- Up-to-date: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/src/description
+-- Installing: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/src/description/gazebo.xacro
+-- Installing: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/src/description/wheels.xacro
+-- Installing: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/src/description/ros2_control0.xacro
+-- Installing: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/src/description/lidar.xacro
+-- Installing: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/src/description/imu.xacro
+-- Installing: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/src/description/sensors.xacro
+-- Installing: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/src/description/inertial_fns.xacro
+-- Installing: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/src/description/ros2_control.xacro
+-- Installing: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/src/description/main.urdf
+-- Installing: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/src/description/base.xacro
+-- Up-to-date: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/launch
+-- Up-to-date: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/launch/rsp.launch.py
+-- Up-to-date: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/launch/navigation_launch.py
+-- Up-to-date: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/launch/launch_robot.launch.py
+-- Up-to-date: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/launch/localization_launch.py
+-- Up-to-date: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/launch/test_launch.py
+-- Up-to-date: /home/hussein/Documents/robotWs/install/kal_package/share/kal_package/launch/online_async_launch.py
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/hussein/Documents/robotWs/src/kal_package/rviz": No such file or
+  directory.
+
+[0m

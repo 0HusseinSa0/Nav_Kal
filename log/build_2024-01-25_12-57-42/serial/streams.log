@@ -1,0 +1,7 @@
+[1.433s] Invoking command in '/home/hussein/Documents/kal_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/serial -- -j4 -l4
+[2.369s] [ 28%] Built target serial
+[2.370s] [ 42%] Built target gtest
+[2.372s] [ 57%] Built target gtest_main
+[2.373s] [ 71%] Built target serial_example
+[2.374s] [ 85%] Built target serial-test
+[2.375s] [100%] Built target serial-test-timer

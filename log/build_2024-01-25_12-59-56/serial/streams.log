@@ -1,0 +1,33 @@
+[0.632s] Invoking command in '/home/hussein/Documents/kal_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/serial -- -j4 -l4
+[1.163s] [ 14%] Built target gtest
+[1.173s] [ 28%] Built target gtest_main
+[1.213s] [ 57%] Built target serial
+[1.400s] [ 71%] Built target serial_example
+[1.411s] [ 85%] Built target serial-test
+[1.483s] [100%] Built target serial-test-timer
+[2.193s] Invoked command in '/home/hussein/Documents/kal_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/serial -- -j4 -l4
+[3.566s] Invoking command in '/home/hussein/Documents/kal_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hussein/Documents/kal_ws/build/serial
+[3.607s] -- Install configuration: ""
+[3.611s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/lib/libserial.a
+[3.612s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/include/serial/serial.h
+[3.614s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/include/serial/v8stdint.h
+[3.615s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/environment/library_path.sh
+[3.615s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/environment/library_path.dsv
+[3.616s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[3.617s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[3.617s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[3.618s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[3.619s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/environment/path.sh
+[3.620s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/environment/path.dsv
+[3.620s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/local_setup.bash
+[3.621s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/local_setup.sh
+[3.622s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/local_setup.zsh
+[3.622s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/local_setup.dsv
+[3.624s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/package.dsv
+[3.625s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/ament_index/resource_index/packages/serial
+[3.626s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.627s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[3.632s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[3.633s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[3.634s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/package.xml
+[3.658s] Invoked command in '/home/hussein/Documents/kal_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hussein/Documents/kal_ws/build/serial

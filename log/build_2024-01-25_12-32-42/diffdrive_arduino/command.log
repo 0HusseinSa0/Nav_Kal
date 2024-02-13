@@ -1,0 +1,1 @@
+Invoking command in '/home/hussein/Documents/robotWs/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hussein/Documents/robotWs/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/hussein/Documents/robotWs/install/diffdrive_arduino

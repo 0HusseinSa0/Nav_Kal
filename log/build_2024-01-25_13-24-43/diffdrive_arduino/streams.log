@@ -1,0 +1,51 @@
+[2.428s] Invoking command in '/home/hussein/Documents/kal_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hussein/Documents/kal_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/diffdrive_arduino -- -j4 -l4
+[2.962s] [100%] Built target diffdrive_arduino
+[3.029s] Invoked command in '/home/hussein/Documents/kal_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hussein/Documents/kal_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/diffdrive_arduino -- -j4 -l4
+[3.823s] Invoking command in '/home/hussein/Documents/kal_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hussein/Documents/kal_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/hussein/Documents/kal_ws/build/diffdrive_arduino
+[3.871s] -- Install configuration: ""
+[3.874s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/diffdrive_arduino.xml
+[3.876s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/include/diffdrive_arduino
+[3.878s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino
+[3.879s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/diffbot_system.hpp
+[3.880s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/arduino_comms.hpp
+[3.881s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/visibility_control.h
+[3.882s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/wheel.hpp
+[3.882s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch
+[3.885s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/view_robot.launch.py
+[3.890s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control
+[3.894s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control/diffbot.ros2_control.xacro
+[3.895s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf
+[3.898s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.materials.xacro
+[3.899s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.urdf.xacro
+[3.900s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot_description.urdf.xacro
+[3.901s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz
+[3.903s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot.rviz
+[3.918s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot_view.rviz
+[3.919s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch
+[3.919s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/diffbot.launch.py
+[3.920s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/config
+[3.921s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/config/diffbot_controllers.yaml
+[3.921s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[3.922s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[3.923s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[3.923s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[3.923s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[3.924s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[3.925s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[3.926s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[3.926s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[3.927s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[3.927s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[3.928s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[3.929s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[3.941s] -- Installing: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[3.942s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[3.943s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[3.943s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake
+[3.944s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport-noconfig.cmake
+[3.944s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_targets-extras.cmake
+[3.944s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.945s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[3.945s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[3.946s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[3.947s] Invoked command in '/home/hussein/Documents/kal_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hussein/Documents/kal_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/hussein/Documents/kal_ws/build/diffdrive_arduino

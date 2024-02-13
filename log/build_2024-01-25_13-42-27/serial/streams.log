@@ -1,0 +1,33 @@
+[0.493s] Invoking command in '/home/hussein/Documents/kal_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hussein/Documents/kal_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/serial -- -j4 -l4
+[0.900s] [ 28%] Built target serial
+[0.949s] [ 42%] Built target gtest_main
+[0.996s] [ 57%] Built target gtest
+[1.102s] [ 71%] Built target serial_example
+[1.197s] [ 85%] Built target serial-test-timer
+[1.218s] [100%] Built target serial-test
+[1.559s] Invoked command in '/home/hussein/Documents/kal_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hussein/Documents/kal_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/serial -- -j4 -l4
+[2.117s] Invoking command in '/home/hussein/Documents/kal_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hussein/Documents/kal_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/hussein/Documents/kal_ws/build/serial
+[2.549s] -- Install configuration: ""
+[2.549s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/lib/libserial.a
+[2.550s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/include/serial/serial.h
+[2.551s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/include/serial/v8stdint.h
+[2.555s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/environment/library_path.sh
+[2.556s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/environment/library_path.dsv
+[2.558s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[2.559s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[2.560s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[2.562s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[2.564s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/environment/path.sh
+[2.565s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/environment/path.dsv
+[2.567s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/local_setup.bash
+[2.570s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/local_setup.sh
+[2.572s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/local_setup.zsh
+[2.575s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/local_setup.dsv
+[2.576s] -- Installing: /home/hussein/Documents/kal_ws/install/serial/share/serial/package.dsv
+[2.577s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/ament_index/resource_index/packages/serial
+[2.580s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.592s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[2.595s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[2.597s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[2.606s] -- Up-to-date: /home/hussein/Documents/kal_ws/install/serial/share/serial/package.xml
+[3.170s] Invoked command in '/home/hussein/Documents/kal_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hussein/Documents/kal_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/hussein/Documents/kal_ws/build/serial

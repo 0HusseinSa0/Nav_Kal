@@ -1,0 +1,2 @@
+Invoking command in '/home/hussein/Documents/robotWs/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/robotWs/build/serial_motor_demo_msgs -- -j4 -l4
+Invoked command in '/home/hussein/Documents/robotWs/build/serial_motor_demo_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/robotWs/build/serial_motor_demo_msgs -- -j4 -l4

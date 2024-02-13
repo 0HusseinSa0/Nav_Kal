@@ -1,0 +1,28 @@
+[1.211s] Invoking command in '/home/hussein/Documents/robotWs/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hussein/Documents/robotWs/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/hussein/Documents/robotWs/install/diffdrive_arduino
+[1.675s] -- The CXX compiler identification is GNU 11.4.0
+[1.720s] -- Detecting CXX compiler ABI info
+[2.195s] -- Detecting CXX compiler ABI info - done
+[2.230s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.231s] -- Detecting CXX compile features
+[2.233s] -- Detecting CXX compile features - done
+[2.264s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.391s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.236s] [31mCMake Error at CMakeLists.txt:19 (find_package):
+[4.237s]   By not providing "Findhardware_interface.cmake" in CMAKE_MODULE_PATH this
+[4.244s]   project has asked CMake to find a package configuration file provided by
+[4.246s]   "hardware_interface", but CMake did not find one.
+[4.249s] 
+[4.250s]   Could not find a package configuration file provided by
+[4.253s]   "hardware_interface" with any of the following names:
+[4.254s] 
+[4.255s]     hardware_interfaceConfig.cmake
+[4.257s]     hardware_interface-config.cmake
+[4.259s] 
+[4.261s]   Add the installation prefix of "hardware_interface" to CMAKE_PREFIX_PATH or
+[4.262s]   set "hardware_interface_DIR" to a directory containing one of the above
+[4.263s]   files.  If "hardware_interface" provides a separate development package or
+[4.265s]   SDK, be sure it has been installed.
+[4.266s] 
+[4.269s] [0m
+[4.271s] -- Configuring incomplete, errors occurred!
+[4.271s] See also "/home/hussein/Documents/robotWs/build/diffdrive_arduino/CMakeFiles/CMakeOutput.log".

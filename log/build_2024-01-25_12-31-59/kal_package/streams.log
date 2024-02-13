@@ -1,0 +1,23 @@
+[0.826s] Invoking command in '/home/hussein/Documents/robotWs/build/kal_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hussein/Documents/robotWs/src/kal_package -DCMAKE_INSTALL_PREFIX=/home/hussein/Documents/robotWs/install/kal_package
+[1.992s] -- The C compiler identification is GNU 11.4.0
+[3.032s] -- The CXX compiler identification is GNU 11.4.0
+[3.089s] -- Detecting C compiler ABI info
+[3.500s] -- Detecting C compiler ABI info - done
+[3.530s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.532s] -- Detecting C compile features
+[3.535s] -- Detecting C compile features - done
+[3.558s] -- Detecting CXX compiler ABI info
+[3.992s] -- Detecting CXX compiler ABI info - done
+[4.024s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.025s] -- Detecting CXX compile features
+[4.027s] -- Detecting CXX compile features - done
+[4.079s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.116s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.871s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.593s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.603s] -- Added test 'lint_cmake' to check CMake code style
+[6.609s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.643s] -- Added test 'xmllint' to check XML markup files
+[6.659s] -- Configuring done
+[6.698s] -- Generating done
+[6.708s] -- Build files have been written to: /home/hussein/Documents/robotWs/build/kal_package

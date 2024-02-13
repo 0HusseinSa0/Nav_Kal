@@ -1,0 +1,1 @@
+Invoking command in '/home/hussein/Documents/robotWs/build/kal_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hussein/Documents/robotWs/src/kal_package -DCMAKE_INSTALL_PREFIX=/home/hussein/Documents/robotWs/install/kal_package

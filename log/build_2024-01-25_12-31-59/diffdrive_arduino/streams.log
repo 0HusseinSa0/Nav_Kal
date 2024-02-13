@@ -1,0 +1,6 @@
+[1.202s] Invoking command in '/home/hussein/Documents/robotWs/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/robotWs/build/diffdrive_arduino -- -j4 -l4
+[1.242s] [0mCMake Error: The current CMakeCache.txt directory /home/hussein/Documents/robotWs/build/diffdrive_arduino/CMakeCache.txt is different than the directory /home/hussein/Documents/kal_ws/build/diffdrive_arduino where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[1.303s] [0mCMake Error: The source directory "/home/hussein/Documents/kal_ws/src/diffdrive_arduino" does not exist.
+[1.303s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[1.320s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[1.347s] Invoked command in '/home/hussein/Documents/robotWs/build/diffdrive_arduino' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/robotWs/build/diffdrive_arduino -- -j4 -l4

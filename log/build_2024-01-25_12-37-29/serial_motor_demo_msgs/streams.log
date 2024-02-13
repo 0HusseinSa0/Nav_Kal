@@ -1,0 +1,31 @@
+[1.346s] Invoking command in '/home/hussein/Documents/kal_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[1.617s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_generator_c[0m
+[1.707s] [ 10%] Built target serial_motor_demo_msgs__rosidl_generator_c
+[1.722s] [ 12%] Built target serial_motor_demo_msgs__cpp
+[1.824s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_c[0m
+[1.865s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_introspection_c[0m
+[1.870s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c[0m
+[1.914s] [ 23%] Built target serial_motor_demo_msgs__rosidl_typesupport_c
+[1.949s] [ 34%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c
+[2.008s] [ 44%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c
+[2.036s] [ 44%] Built target ament_cmake_python_copy_serial_motor_demo_msgs
+[2.052s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.095s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp[0m
+[2.125s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_typesupport_cpp[0m
+[2.227s] [ 55%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[2.281s] [ 65%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp
+[2.298s] [ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp
+[2.439s] [ 76%] Built target serial_motor_demo_msgs
+[2.571s] [ 78%] Built target serial_motor_demo_msgs__py
+[2.661s] [35m[1mConsolidate compiler generated dependencies of target serial_motor_demo_msgs__rosidl_generator_py[0m
+[2.728s] gmake[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libpython3.10.so', needed by 'rosidl_generator_py/serial_motor_demo_msgs/libserial_motor_demo_msgs__rosidl_generator_py.so'.  Stop.
+[2.730s] gmake[1]: *** [CMakeFiles/Makefile2:475: CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/all] Error 2
+[2.732s] gmake[1]: *** Waiting for unfinished jobs....
+[4.138s] running egg_info
+[4.141s] writing serial_motor_demo_msgs.egg-info/PKG-INFO
+[4.143s] writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt
+[4.144s] writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt
+[4.158s] reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[4.161s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[4.331s] [ 78%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg
+[4.337s] gmake: *** [Makefile:146: all] Error 2

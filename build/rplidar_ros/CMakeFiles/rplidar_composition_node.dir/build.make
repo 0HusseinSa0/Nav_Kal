@@ -232,7 +232,7 @@ librplidar_composition_node.so: /opt/ros/humble/lib/libstatistics_msgs__rosidl_g
 librplidar_composition_node.so: /opt/ros/humble/lib/libtracetools.so
 librplidar_composition_node.so: /opt/ros/humble/lib/libament_index_cpp.so
 librplidar_composition_node.so: /opt/ros/humble/lib/libclass_loader.so
-librplidar_composition_node.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+librplidar_composition_node.so: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
 librplidar_composition_node.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so
 librplidar_composition_node.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
 librplidar_composition_node.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
@@ -258,7 +258,7 @@ librplidar_composition_node.so: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 librplidar_composition_node.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_generator_py.so
 librplidar_composition_node.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
 librplidar_composition_node.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
-librplidar_composition_node.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+librplidar_composition_node.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 librplidar_composition_node.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_c.so
 librplidar_composition_node.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so
 librplidar_composition_node.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so

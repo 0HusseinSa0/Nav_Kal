@@ -1,0 +1,24 @@
+[1.363s] Invoking command in '/home/hussein/Documents/kal_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[1.717s] [  2%] Built target serial_motor_demo_msgs__cpp
+[1.748s] [ 12%] Built target serial_motor_demo_msgs__rosidl_generator_c
+[1.886s] [ 12%] Built target ament_cmake_python_copy_serial_motor_demo_msgs
+[1.933s] [ 23%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_cpp
+[1.999s] [ 34%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_cpp
+[2.049s] [ 44%] Built target serial_motor_demo_msgs__rosidl_typesupport_cpp
+[2.121s] [ 55%] Built target serial_motor_demo_msgs__rosidl_typesupport_fastrtps_c
+[2.236s] [ 65%] Built target serial_motor_demo_msgs__rosidl_typesupport_introspection_c
+[2.304s] [ 76%] Built target serial_motor_demo_msgs__rosidl_typesupport_c
+[2.545s] [ 76%] Built target serial_motor_demo_msgs
+[2.682s] [ 78%] Built target serial_motor_demo_msgs__py
+[2.812s] gmake[2]: *** No rule to make target '/usr/lib/x86_64-linux-gnu/libpython3.10.so', needed by 'rosidl_generator_py/serial_motor_demo_msgs/libserial_motor_demo_msgs__rosidl_generator_py.so'.  Stop.
+[2.813s] gmake[1]: *** [CMakeFiles/Makefile2:475: CMakeFiles/serial_motor_demo_msgs__rosidl_generator_py.dir/all] Error 2
+[2.815s] gmake[1]: *** Waiting for unfinished jobs....
+[4.195s] running egg_info
+[4.200s] writing serial_motor_demo_msgs.egg-info/PKG-INFO
+[4.202s] writing dependency_links to serial_motor_demo_msgs.egg-info/dependency_links.txt
+[4.204s] writing top-level names to serial_motor_demo_msgs.egg-info/top_level.txt
+[4.226s] reading manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[4.230s] writing manifest file 'serial_motor_demo_msgs.egg-info/SOURCES.txt'
+[4.461s] [ 78%] Built target ament_cmake_python_build_serial_motor_demo_msgs_egg
+[4.496s] gmake: *** [Makefile:146: all] Error 2
+[4.524s] Invoked command in '/home/hussein/Documents/kal_ws/build/serial_motor_demo_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/serial_motor_demo_msgs -- -j4 -l4

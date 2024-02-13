@@ -1,0 +1,249 @@
+[5.251s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[5.251s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff7dc7a0e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7df41a50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7df41a50>>)
+[5.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.490s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.491s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hussein/Documents/kal_ws'
+[5.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.493s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.493s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.493s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.493s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.493s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.493s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.545s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.545s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.545s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.546s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.546s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.547s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.547s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.548s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.548s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.548s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.550s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.551s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.551s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.551s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.552s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.552s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.552s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.552s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.552s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.552s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.553s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.553s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.553s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.554s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.554s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.554s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.554s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ignore', 'ignore_ament_install']
+[5.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore'
+[5.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ignore_ament_install'
+[5.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_pkg']
+[5.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_pkg'
+[5.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['colcon_meta']
+[5.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'colcon_meta'
+[5.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extensions ['ros']
+[5.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/diffdrive_arduino) by extension 'ros'
+[5.569s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diffdrive_arduino' with type 'ros.ament_cmake' and name 'diffdrive_arduino'
+[5.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/kal_package) by extensions ['ignore', 'ignore_ament_install']
+[5.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/kal_package) by extension 'ignore'
+[5.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/kal_package) by extension 'ignore_ament_install'
+[5.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/kal_package) by extensions ['colcon_pkg']
+[5.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/kal_package) by extension 'colcon_pkg'
+[5.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/kal_package) by extensions ['colcon_meta']
+[5.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/kal_package) by extension 'colcon_meta'
+[5.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/kal_package) by extensions ['ros']
+[5.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/kal_package) by extension 'ros'
+[5.574s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kal_package' with type 'ros.ament_cmake' and name 'kal_package'
+[5.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[5.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'ignore'
+[5.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'ignore_ament_install'
+[5.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['colcon_pkg']
+[5.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'colcon_pkg'
+[5.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['colcon_meta']
+[5.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'colcon_meta'
+[5.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extensions ['ros']
+[5.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros2) by extension 'ros'
+[5.579s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros2' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[5.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ignore', 'ignore_ament_install']
+[5.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore'
+[5.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ignore_ament_install'
+[5.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_pkg']
+[5.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_pkg'
+[5.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['colcon_meta']
+[5.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'colcon_meta'
+[5.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extensions ['ros']
+[5.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial) by extension 'ros'
+[5.584s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial' with type 'ros.ament_cmake' and name 'serial'
+[5.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[5.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore'
+[5.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ignore_ament_install'
+[5.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_pkg']
+[5.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_pkg'
+[5.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['colcon_meta']
+[5.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'colcon_meta'
+[5.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['ros']
+[5.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'ros'
+[5.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['cmake', 'python']
+[5.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'cmake'
+[5.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python'
+[5.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extensions ['python_setup_py']
+[5.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo) by extension 'python_setup_py'
+[5.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ignore', 'ignore_ament_install']
+[5.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore'
+[5.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ignore_ament_install'
+[5.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_pkg']
+[5.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_pkg'
+[5.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['colcon_meta']
+[5.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'colcon_meta'
+[5.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extensions ['ros']
+[5.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo) by extension 'ros'
+[5.597s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo' with type 'ros.ament_python' and name 'serial_motor_demo'
+[5.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[5.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore'
+[5.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ignore_ament_install'
+[5.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_pkg']
+[5.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_pkg'
+[5.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['colcon_meta']
+[5.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'colcon_meta'
+[5.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extensions ['ros']
+[5.600s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_motor_demo/serial_motor_demo_msgs) by extension 'ros'
+[5.602s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_motor_demo/serial_motor_demo_msgs' with type 'ros.ament_cmake' and name 'serial_motor_demo_msgs'
+[5.602s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.603s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.603s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.603s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.603s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.084s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.084s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.246s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[6.254s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.713s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_args' from command line to 'None'
+[6.714s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target' from command line to 'None'
+[6.714s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.714s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_cache' from command line to 'False'
+[6.714s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_clean_first' from command line to 'False'
+[6.714s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'cmake_force_configure' from command line to 'False'
+[6.714s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'ament_cmake_args' from command line to 'None'
+[6.715s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_cmake_args' from command line to 'None'
+[6.715s] Level 5:colcon.colcon_core.verb:set package 'diffdrive_arduino' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.715s] DEBUG:colcon.colcon_core.verb:Building package 'diffdrive_arduino' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hussein/Documents/kal_ws/build/diffdrive_arduino', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hussein/Documents/kal_ws/install/diffdrive_arduino', 'merge_install': False, 'path': '/home/hussein/Documents/kal_ws/src/diffdrive_arduino', 'symlink_install': False, 'test_result_base': None}
+[6.789s] Level 5:colcon.colcon_core.verb:set package 'kal_package' build argument 'cmake_args' from command line to 'None'
+[6.790s] Level 5:colcon.colcon_core.verb:set package 'kal_package' build argument 'cmake_target' from command line to 'None'
+[6.790s] Level 5:colcon.colcon_core.verb:set package 'kal_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.790s] Level 5:colcon.colcon_core.verb:set package 'kal_package' build argument 'cmake_clean_cache' from command line to 'False'
+[6.790s] Level 5:colcon.colcon_core.verb:set package 'kal_package' build argument 'cmake_clean_first' from command line to 'False'
+[6.790s] Level 5:colcon.colcon_core.verb:set package 'kal_package' build argument 'cmake_force_configure' from command line to 'False'
+[6.790s] Level 5:colcon.colcon_core.verb:set package 'kal_package' build argument 'ament_cmake_args' from command line to 'None'
+[6.791s] Level 5:colcon.colcon_core.verb:set package 'kal_package' build argument 'catkin_cmake_args' from command line to 'None'
+[6.791s] Level 5:colcon.colcon_core.verb:set package 'kal_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.791s] DEBUG:colcon.colcon_core.verb:Building package 'kal_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hussein/Documents/kal_ws/build/kal_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hussein/Documents/kal_ws/install/kal_package', 'merge_install': False, 'path': '/home/hussein/Documents/kal_ws/src/kal_package', 'symlink_install': False, 'test_result_base': None}
+[6.868s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[6.869s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[6.869s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.869s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[6.869s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[6.869s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[6.870s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[6.870s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[6.870s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.870s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hussein/Documents/kal_ws/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hussein/Documents/kal_ws/install/rplidar_ros', 'merge_install': False, 'path': '/home/hussein/Documents/kal_ws/src/rplidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[6.945s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[6.945s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[6.945s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.945s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[6.946s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[6.946s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[6.946s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[6.946s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[6.946s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.946s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hussein/Documents/kal_ws/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hussein/Documents/kal_ws/install/serial', 'merge_install': False, 'path': '/home/hussein/Documents/kal_ws/src/serial', 'symlink_install': False, 'test_result_base': None}
+[7.021s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[7.021s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[7.021s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.021s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[7.021s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[7.022s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[7.022s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[7.022s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[7.022s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.022s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hussein/Documents/kal_ws/build/serial_motor_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hussein/Documents/kal_ws/install/serial_motor_demo_msgs', 'merge_install': False, 'path': '/home/hussein/Documents/kal_ws/src/serial_motor_demo/serial_motor_demo_msgs', 'symlink_install': False, 'test_result_base': None}
+[7.098s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_args' from command line to 'None'
+[7.098s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target' from command line to 'None'
+[7.098s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.099s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[7.099s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_clean_first' from command line to 'False'
+[7.099s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'cmake_force_configure' from command line to 'False'
+[7.099s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'ament_cmake_args' from command line to 'None'
+[7.099s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[7.099s] Level 5:colcon.colcon_core.verb:set package 'serial_motor_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.099s] DEBUG:colcon.colcon_core.verb:Building package 'serial_motor_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hussein/Documents/kal_ws/build/serial_motor_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hussein/Documents/kal_ws/install/serial_motor_demo', 'merge_install': False, 'path': '/home/hussein/Documents/kal_ws/src/serial_motor_demo/serial_motor_demo', 'symlink_install': False, 'test_result_base': None}
+[7.172s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[7.249s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[7.250s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hussein/Documents/kal_ws/src/serial_motor_demo/serial_motor_demo_msgs' with build type 'ament_cmake'
+[7.251s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hussein/Documents/kal_ws/src/serial_motor_demo/serial_motor_demo_msgs'
+[7.372s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.374s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.374s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.586s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hussein/Documents/kal_ws/src/diffdrive_arduino' with build type 'ament_cmake'
+[7.587s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hussein/Documents/kal_ws/src/diffdrive_arduino'
+[7.697s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.697s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.997s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hussein/Documents/kal_ws/src/kal_package' with build type 'ament_cmake'
+[7.998s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hussein/Documents/kal_ws/src/kal_package'
+[8.097s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.098s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.283s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hussein/Documents/kal_ws/src/rplidar_ros2' with build type 'ament_cmake'
+[8.284s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hussein/Documents/kal_ws/src/rplidar_ros2'
+[8.376s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.377s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hussein/Documents/kal_ws/build/serial_motor_demo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/serial_motor_demo_msgs -- -j4 -l4
+[8.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hussein/Documents/kal_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hussein/Documents/kal_ws/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/hussein/Documents/kal_ws/install/diffdrive_arduino
+[8.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hussein/Documents/kal_ws/build/kal_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/kal_package -- -j4 -l4
+[8.694s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hussein/Documents/kal_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/rplidar_ros -- -j4 -l4
+[8.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hussein/Documents/kal_ws/build/kal_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/kal_package -- -j4 -l4
+[8.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hussein/Documents/kal_ws/build/rplidar_ros' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hussein/Documents/kal_ws/build/rplidar_ros -- -j4 -l4
+[9.338s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kal_package)
+[9.589s] Level 1:colcon.colcon_core.environment:checking '/home/hussein/Documents/kal_ws/install/kal_package' for CMake module files
+[9.596s] Level 1:colcon.colcon_core.environment:checking '/home/hussein/Documents/kal_ws/install/kal_package' for CMake config files
+[9.599s] Level 1:colcon.colcon_core.shell:create_environment_hook('kal_package', 'cmake_prefix_path')
+[9.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/hook/cmake_prefix_path.ps1'
+[9.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/hook/cmake_prefix_path.dsv'
+[9.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/hook/cmake_prefix_path.sh'
+[9.828s] Level 1:colcon.colcon_core.environment:checking '/home/hussein/Documents/kal_ws/install/kal_package/bin'
+[9.829s] Level 1:colcon.colcon_core.environment:checking '/home/hussein/Documents/kal_ws/install/kal_package/lib/pkgconfig/kal_package.pc'
+[9.831s] Level 1:colcon.colcon_core.environment:checking '/home/hussein/Documents/kal_ws/install/kal_package/lib/python3.10/site-packages'
+[9.832s] Level 1:colcon.colcon_core.environment:checking '/home/hussein/Documents/kal_ws/install/kal_package/bin'
+[10.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/package.ps1'
+[10.036s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/package.dsv'
+[10.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/package.sh'
+[10.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/package.bash'
+[10.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/hussein/Documents/kal_ws/install/kal_package/share/kal_package/package.zsh'
+[10.055s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hussein/Documents/kal_ws/install/kal_package/share/colcon-core/packages/kal_package)
+[12.207s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.208s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.209s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[12.209s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.350s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.350s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.351s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.412s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.529s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hussein/Documents/kal_ws/install/local_setup.ps1'
+[12.536s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hussein/Documents/kal_ws/install/_local_setup_util_ps1.py'
+[12.545s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hussein/Documents/kal_ws/install/setup.ps1'
+[12.661s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hussein/Documents/kal_ws/install/local_setup.sh'
+[12.665s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hussein/Documents/kal_ws/install/_local_setup_util_sh.py'
+[12.669s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hussein/Documents/kal_ws/install/setup.sh'
+[12.795s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hussein/Documents/kal_ws/install/local_setup.bash'
+[12.798s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hussein/Documents/kal_ws/install/setup.bash'
+[12.995s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hussein/Documents/kal_ws/install/local_setup.zsh'
+[12.998s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hussein/Documents/kal_ws/install/setup.zsh'
